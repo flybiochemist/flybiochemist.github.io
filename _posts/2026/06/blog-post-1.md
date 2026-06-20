@@ -1,7 +1,7 @@
 ---
 title: 'Blog Post number 1'
 date: 2026-06-19
-permalink: /posts/2026/06/blog-post-1/
+permalink: /posts/2026-06-blog-post-1/
 tags:
   - 뇌오가노이드
   - 어셈블로이드
