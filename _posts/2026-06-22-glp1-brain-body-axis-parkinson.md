@@ -1,7 +1,7 @@
 ---
 title: '위고비의 brain-body axis 차원에서의 파킨슨 조절 가능성'
 date: 2026-06-22
-permalink: /posts/2026/06/glp1-brain-body-axis-parkinson/
+permalink: /posts/2026-06-22-glp1-brain-body-axis-parkinson/
 tags:
   - biology
   - parkinsons
