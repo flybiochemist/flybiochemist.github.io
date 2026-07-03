@@ -1,7 +1,7 @@
 ---
 title: '사람과 쥐 사이의 적혈구 생성지의 미묘한 차이'
 date: 2026-07-02
-permalink: /posts/2026/07/human-mouse-erythroblastic-islands/
+permalink: /posts/2026-07-02-human-mouse-erythroblastic-islands/
 tags:
   - biology
   - hematopoiesis
