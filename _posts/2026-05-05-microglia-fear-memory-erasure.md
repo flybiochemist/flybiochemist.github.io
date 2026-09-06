@@ -2,6 +2,8 @@
 title: 미세교세포는 어떻게 공포기억을 지우는가
 date: 2026-05-05
 permalink: /posts/2026-05-05-2/
+lang: ko
+translation: /en/posts/2026-05-05-2/
 tags:
   - biology
   - neuroscience

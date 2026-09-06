@@ -2,6 +2,8 @@
 title: 밀려쓰기 돌연변이가 GC가 많은 지역에서 일어나면
 date: 2026-05-08
 permalink: /posts/2026-05-08/
+lang: ko
+translation: /en/posts/2026-05-08/
 tags:
   - biology
   - genetics

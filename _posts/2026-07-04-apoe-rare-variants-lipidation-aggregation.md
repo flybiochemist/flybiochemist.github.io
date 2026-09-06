@@ -2,6 +2,8 @@
 title: ApoE의 희귀 변이가 알려주는 지질화와 응집의 비밀
 date: 2026-07-04
 permalink: /posts/2026-07-04/
+lang: ko
+translation: /en/posts/2026-07-04/
 tags:
   - biology
   - alzheimers

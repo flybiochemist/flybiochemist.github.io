@@ -2,6 +2,8 @@
 title: 파킨슨병의 원인단백질 알파시뉴클레인과 멜라닌
 date: 2026-01-06
 permalink: /posts/2026-01-06/
+lang: ko
+translation: /en/posts/2026-01-06/
 tags:
   - biology
   - parkinsons

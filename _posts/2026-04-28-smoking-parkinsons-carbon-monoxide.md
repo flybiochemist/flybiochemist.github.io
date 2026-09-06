@@ -2,6 +2,8 @@
 title: 흡연이 파킨슨병을 막아주는 이유는 니코틴이 아니었다
 date: 2026-04-28
 permalink: /posts/2026-04-28-2/
+lang: ko
+translation: /en/posts/2026-04-28-2/
 tags:
   - biology
   - parkinsons
