@@ -44,9 +44,9 @@ Kim Y\*, Vaidya B\*, Kim J, Bitar S, Shajan FJ, Verma AK, Yalamanchili HK, Singh
 
 Vaidya B, Li Y, Kim Y, Osterman C, Revelli JP, Zoghbi HY. GLP-1 analogs restore inflammatory, mitochondrial and intercellular signaling networks in the Snca<sup>G51D/G51D</sup> knock-in mouse model of Parkinson's disease. *BioRxiv* May 2026. doi: https://doi.org/10.64898/2026.05.18.726024
 
-Lin Y, Jaimon E, Kim Y, Loftman A, Vijayakumaran A, Belfort B, Chiang C, Arenkiel B, Zoghbi HY, Pfeffer S. Selective loss of Primary Cilia and Neurotrophic Signaling in G51D α-Synuclein Mice Highlights a Common Pathway to Parkinson's Disease. *BioRxiv* Feb 2026. doi: https://doi.org/10.64898/2026.02.25.708014
-
 ### Peer-Reviewed Articles
+
+Lin Y, Jaimon E, Kim Y, Loftman A, Vijayakumaran A, Belfort B, Chiang C, Arenkiel B, Zoghbi HY, Pfeffer S. Selective loss of primary cilia and neurotrophic signaling in G51D α-synuclein mice highlights a common pathway to Parkinson's disease. *Proc. Natl. Acad. Sci. U.S.A.* 2026, 123(33) e2619797123.
 
 Kim Y, Vaidya B, McInnes J, Zoghbi HY. Alpha-Synuclein Phosphomimetic Y39E and S129D Knock-In Mice Show Cytosolic Alpha-Synuclein Localization without Developing Neurodegeneration or Motor Deficits. *eNeuro* 31 March 2025, 12(4).
 
