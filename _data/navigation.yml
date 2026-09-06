@@ -8,6 +8,9 @@
 #      so there is no separate "About" entry here.
 
 main:
+  - title: "Projects"
+    url: /projects/
+
   - title: "Publications"
     url: /publications/
 

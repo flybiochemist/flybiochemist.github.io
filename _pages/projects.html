@@ -1,0 +1,26 @@
+---
+layout: archive
+title: "Projects"
+permalink: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p class="wordwrap">Current work in the Zoghbi Lab on the mechanisms of Parkinson's disease — building a mouse model that captures how the disease actually begins, and using it to test what drives &alpha;-Synuclein pathology between neurons and glia.</p>
+
+{% assign projects = site.projects | sort: 'order' %}
+{% for post in projects %}
+  <div class="project__item">
+    <h2 class="archive__item-title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    {% if post.status %}
+      <p class="project__status">{{ post.status }}</p>
+    {% endif %}
+    {% if post.summary %}
+      <p class="project__summary">{{ post.summary }}</p>
+    {% endif %}
+    <p><a href="{{ base_path }}{{ post.url }}">Read more &rarr;</a></p>
+  </div>
+{% endfor %}
