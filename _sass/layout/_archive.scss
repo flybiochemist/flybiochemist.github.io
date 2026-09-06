@@ -153,6 +153,68 @@
 
 
 /*
+   Blog landing (featured post + recent list)
+   ========================================================================== */
+
+.blog-landing {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em;
+  align-items: flex-start;
+}
+
+.blog-landing__featured {
+  flex: 3 1 420px;
+  min-width: 0;
+}
+
+.blog-landing__permalink {
+  margin-top: 2em;
+  font-size: $type-size-6;
+}
+
+.blog-landing__sidebar {
+  flex: 1 1 240px;
+  max-width: 320px;
+
+  &.sidebar__right {
+    position: static;
+    float: none;
+    width: auto;
+    margin-left: 0;
+  }
+}
+
+.blog-landing__list {
+  margin: 0 0 1em;
+  padding: 0;
+  list-style: none;
+
+  li {
+    padding: 0.6em 0;
+    border-top: 1px solid var(--global-border-color);
+
+    &:first-child {
+      border-top: 0;
+    }
+  }
+
+  a {
+    display: block;
+    font-size: $type-size-6;
+    line-height: 1.4;
+  }
+
+  time {
+    display: block;
+    margin-top: 0.15em;
+    font-size: $type-size-7;
+    color: var(--global-text-color-light);
+  }
+}
+
+
+/*
    Features
    ========================================================================== */
 
