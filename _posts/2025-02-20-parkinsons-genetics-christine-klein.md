@@ -2,6 +2,8 @@
 title: 파킨슨병 유전자, 인종별로 왜 이렇게 다를까
 date: 2025-02-20
 permalink: /posts/2025-02-20/
+lang: ko
+translation: /en/posts/2025-02-20/
 tags:
   - biology
   - parkinsons

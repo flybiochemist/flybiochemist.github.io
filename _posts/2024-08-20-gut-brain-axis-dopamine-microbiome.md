@@ -2,6 +2,8 @@
 title: 장과 뇌 축 위에서의 도파민과 장내세균
 date: 2024-08-20
 permalink: /posts/2024-08-20/
+lang: ko
+translation: /en/posts/2024-08-20/
 tags:
   - biology
   - parkinsons

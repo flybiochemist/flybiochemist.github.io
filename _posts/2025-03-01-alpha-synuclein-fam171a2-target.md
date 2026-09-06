@@ -2,6 +2,8 @@
 title: 알파시뉴클레인 응집체 전이를 막으면 파킨슨병을 치료할 수 있을까
 date: 2025-03-01
 permalink: /posts/2025-03-01/
+lang: ko
+translation: /en/posts/2025-03-01/
 tags:
   - biology
   - parkinsons

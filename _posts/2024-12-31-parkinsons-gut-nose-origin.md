@@ -2,6 +2,8 @@
 title: 파킨슨 병은 어디에서 시작되는가 - 당신의 장과 코에서?
 date: 2024-12-31
 permalink: /posts/2024-12-31/
+lang: ko
+translation: /en/posts/2024-12-31/
 tags:
   - biology
   - parkinsons

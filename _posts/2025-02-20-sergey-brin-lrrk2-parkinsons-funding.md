@@ -2,6 +2,8 @@
 title: 번외편, 내가 파킨슨을 유발할 수 있는 유전자라니 - 세르게이 브린 이야기
 date: 2025-02-20
 permalink: /posts/2025-02-20-2/
+lang: ko
+translation: /en/posts/2025-02-20-2/
 tags:
   - biology
   - parkinsons
