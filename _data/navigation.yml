@@ -28,10 +28,10 @@ main_ko:
     url: /ko/projects/
 
   - title: "논문"
-    url: /publications/
+    url: /ko/publications/
 
   - title: "블로그"
-    url: /year-archive/
+    url: /ko/blog/
 
   - title: "CV"
     url: /ko/cv/

@@ -1,0 +1,35 @@
+---
+layout: archive
+title: "논문"
+permalink: /ko/publications/
+lang: ko
+translation: /publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap">제 논문은 <a href="{{ site.author.googlescholar }}">Google Scholar 프로필</a>에서도 보실 수 있습니다.</div>
+{% endif %}
+
+{% include base_path %}
+
+{% for category in site.publication_category %}
+  {% assign title_shown = false %}
+  {% for post in site.publications reversed %}
+    {% if post.category != category[0] %}
+      {% continue %}
+    {% endif %}
+    {% unless title_shown %}
+      {% case category[0] %}
+        {% when 'preprints' %}<h2>프리프린트</h2>
+        {% when 'manuscripts' %}<h2>학술지 게재 논문</h2>
+        {% when 'books' %}<h2>저서</h2>
+        {% when 'conferences' %}<h2>학회 논문</h2>
+        {% else %}<h2>{{ category[1].title }}</h2>
+      {% endcase %}
+      <hr />
+      {% assign title_shown = true %}
+    {% endunless %}
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

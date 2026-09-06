@@ -1,16 +1,15 @@
 ---
 layout: archive
-permalink: /year-archive/
-lang: en
-translation: /ko/blog/
-title: "Blog posts"
+permalink: /ko/blog/
+title: "블로그"
+lang: ko
+translation: /year-archive/
 author_profile: true
-redirect_from:
-  - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
-{% assign latest_post = site.posts.first %}
+{% assign ko_posts = site.posts | where_exp: "p", "p.lang != 'en'" %}
+{% assign latest_post = ko_posts | first %}
 {% assign latest_title = latest_post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 
 <div class="blog-landing">
@@ -20,12 +19,8 @@ redirect_from:
         <h2 class="archive__item-title" itemprop="headline">
           <a href="{{ base_path }}{{ latest_post.url }}" rel="permalink">{{ latest_title }}</a>
         </h2>
-        {% if latest_post.read_time %}
-          {% assign post = latest_post %}
-          <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
-        {% endif %}
         {% if latest_post.date %}
-          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 발행일:</strong> <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%Y년 %m월 %d일" }}</time></p>
         {% endif %}
       </header>
 
@@ -43,7 +38,7 @@ redirect_from:
     <nav class="toc">
       <header><h3 class="nav__title">최근 글</h3></header>
       <ul class="blog-landing__list">
-        {% for post in site.posts limit:21 offset:1 %}
+        {% for post in ko_posts limit:20 offset:1 %}
           {% assign item_title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
           <li>
             <a href="{{ base_path }}{{ post.url }}">{{ item_title }}</a>
@@ -51,7 +46,7 @@ redirect_from:
           </li>
         {% endfor %}
       </ul>
-      <a href="{{ base_path }}/all-posts/" class="btn btn--small">전체 글 보기 &rarr;</a>
+      <a href="{{ base_path }}/ko/all-posts/" class="btn btn--small">전체 글 보기 &rarr;</a>
     </nav>
   </aside>
 </div>
