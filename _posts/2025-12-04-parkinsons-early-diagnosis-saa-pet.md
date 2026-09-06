@@ -2,6 +2,8 @@
 title: 파킨슨병 조기진단의 길 - SAA와 PET
 date: 2025-12-04
 permalink: /posts/2025-12-04-2/
+lang: ko
+translation: /en/posts/2025-12-04-2/
 tags:
   - biology
   - parkinsons

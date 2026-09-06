@@ -2,6 +2,8 @@
 title: 왜 파킨슨병은 줄기세포 치료가 더 유망할까
 date: 2025-11-06
 permalink: /posts/2025-11-06/
+lang: ko
+translation: /en/posts/2025-11-06/
 tags:
   - biology
   - parkinsons

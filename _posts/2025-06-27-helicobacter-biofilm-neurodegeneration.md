@@ -2,6 +2,8 @@
 title: 헬리코박터의 위장내 자리싸움과 퇴행성뇌질환단백질
 date: 2025-06-27
 permalink: /posts/2025-06-27-2/
+lang: ko
+translation: /en/posts/2025-06-27-2/
 tags:
   - biology
   - alzheimers

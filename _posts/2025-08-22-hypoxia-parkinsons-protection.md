@@ -2,6 +2,8 @@
 title: 저산소 상태가 파킨슨에 좋다고요?
 date: 2025-08-22
 permalink: /posts/2025-08-22/
+lang: ko
+translation: /en/posts/2025-08-22/
 tags:
   - biology
   - parkinsons

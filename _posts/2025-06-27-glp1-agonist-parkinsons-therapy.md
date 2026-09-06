@@ -2,6 +2,8 @@
 title: GLP-1 agonist와 파킨슨 치료
 date: 2025-06-27
 permalink: /posts/2025-06-27/
+lang: ko
+translation: /en/posts/2025-06-27/
 tags:
   - biology
   - parkinsons

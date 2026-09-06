@@ -2,6 +2,8 @@
 title: Biogen과 Ionis의 LRRK2 siRNA 파킨슨 임상, 아직은 갈길이 멀다
 date: 2026-05-26
 permalink: /posts/2026-05-26/
+lang: ko
+translation: /en/posts/2026-05-26/
 tags:
   - biology
   - parkinsons

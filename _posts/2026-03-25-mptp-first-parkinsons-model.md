@@ -2,6 +2,8 @@
 title: 수율 낮은 마약의 부작용에서 시작한 최초의 파킨슨병 모델
 date: 2026-03-25
 permalink: /posts/2026-03-25/
+lang: ko
+translation: /en/posts/2026-03-25/
 tags:
   - biology
   - parkinsons

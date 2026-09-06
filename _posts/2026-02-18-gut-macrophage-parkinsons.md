@@ -2,6 +2,8 @@
 title: 장근육 대식세포는 어떻게 파킨슨병의 시작점이 되는가
 date: 2026-02-18
 permalink: /posts/2026-02-18/
+lang: ko
+translation: /en/posts/2026-02-18/
 tags:
   - biology
   - parkinsons

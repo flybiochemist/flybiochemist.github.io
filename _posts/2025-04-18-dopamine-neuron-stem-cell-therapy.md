@@ -2,6 +2,8 @@
 title: 파킨슨 치료를 위한 도파민 뉴런 만들기
 date: 2025-04-18
 permalink: /posts/2025-04-18/
+lang: ko
+translation: /en/posts/2025-04-18/
 tags:
   - biology
   - parkinsons
