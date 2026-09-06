@@ -26,6 +26,7 @@ author:
   name             : "Youngdoo Kim"
   pronouns         : # example: "she/her"
   bio              : "Scientist interested in Parkinson's disease using mouse model (SncaG51D/G51D) and neuron-glia interaction, through metabolite exchanges"
+  bio_ko           : "SncaG51D/G51D 넉인 마우스 모델과 대사물질 교환을 매개로 한 신경세포-교세포 상호작용을 통해 파킨슨병을 연구합니다"
   location         : "Houston, TX"
   employer         : "Baylor College of Medicine"
   uri              : # URL

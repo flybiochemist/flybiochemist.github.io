@@ -189,6 +189,20 @@
     }
   }
 
+  a.lang-toggle {
+    margin: 0 0.5rem;
+    padding: 0.15rem 0.6rem;
+    border: 1px solid var(--global-dark-border-color);
+    border-radius: $border-radius;
+    font-size: $type-size-7;
+    line-height: 1.7;
+    white-space: nowrap;
+
+    &:hover {
+      border-color: var(--global-masthead-link-color-hover);
+    }
+  }
+
   button {
     position: absolute;
     height: 2.5rem;

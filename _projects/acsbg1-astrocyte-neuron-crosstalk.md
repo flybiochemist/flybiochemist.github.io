@@ -2,6 +2,8 @@
 title: "ACSBG1-mediated astrocyte–neuron crosstalk in synucleinopathy"
 collection: projects
 permalink: /projects/acsbg1-astrocyte-neuron-crosstalk
+lang: en
+translation: /ko/projects/acsbg1-astrocyte-neuron-crosstalk
 order: 2
 status: "Preprint, BioRxiv (2026)"
 summary: "How a lipid enzyme expressed only in astrocytes changes α-Synuclein inside neurons — and why switching it off rescues a Parkinson's mouse."

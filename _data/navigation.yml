@@ -6,6 +6,9 @@
 #
 # NOTE the site title in the masthead already links to the About page (/),
 #      so there is no separate "About" entry here.
+#
+# main_ko is the Korean counterpart, selected in _includes/masthead.html when a
+# page declares lang: ko. Pages without a Korean translation stay in English.
 
 main:
   - title: "Projects"
@@ -19,3 +22,16 @@ main:
 
   - title: "CV"
     url: /cv/
+
+main_ko:
+  - title: "연구"
+    url: /ko/projects/
+
+  - title: "논문"
+    url: /publications/
+
+  - title: "블로그"
+    url: /year-archive/
+
+  - title: "CV"
+    url: /ko/cv/

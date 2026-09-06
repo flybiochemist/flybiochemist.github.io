@@ -1,5 +1,7 @@
 ---
 permalink: /
+lang: en
+translation: /ko/
 title: "About"
 author_profile: true
 redirect_from:

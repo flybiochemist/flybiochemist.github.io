@@ -2,6 +2,8 @@
 layout: archive
 title: "Projects"
 permalink: /projects/
+lang: en
+translation: /ko/projects/
 author_profile: true
 ---
 
@@ -9,7 +11,7 @@ author_profile: true
 
 <p class="wordwrap">Current work in the Zoghbi Lab on the mechanisms of Parkinson's disease — building a mouse model that captures how the disease actually begins, and using it to test what drives &alpha;-Synuclein pathology between neurons and glia.</p>
 
-{% assign projects = site.projects | sort: 'order' %}
+{% assign projects = site.projects | where: 'lang', 'en' | sort: 'order' %}
 {% for post in projects %}
   <div class="project__item">
     <h2 class="archive__item-title">

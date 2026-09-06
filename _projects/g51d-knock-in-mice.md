@@ -2,6 +2,8 @@
 title: "G51D knock-in mice"
 collection: projects
 permalink: /projects/g51d-knock-in-mice
+lang: en
+translation: /ko/projects/g51d-knock-in-mice
 order: 1
 status: "Published in PNAS (2024)"
 summary: "A knock-in mouse carrying a Parkinson's-causing SNCA mutation at its own locus, which reproduces the order in which human symptoms appear: smell and gut first, movement much later."

@@ -1,52 +1,50 @@
 ---
 layout: archive
 title: "CV"
-permalink: /cv/
-lang: en
-translation: /ko/cv/
+permalink: /ko/cv/
+lang: ko
+translation: /cv/
 author_profile: true
-redirect_from:
-  - /resume
 ---
 
 {% include base_path %}
 
-## Profile
+## 소개
 
-A highly motivated neuroscientist with expertise in molecular biology, including (1) mouse genetics and behavior characterization to establish novel neurodegenerative model animals in Parkinson's disease and other neurodegenerative diseases, and (2) developing potential drugs and target genes to effectively reverse or prevent pathological changes of alpha-synuclein and tau in the brain.
-
----
-
-## Education
-
-**Ph.D.** Biological Science — Seoul National University, Seoul, Korea (Sep 2007 – Aug 2015)
-
-**M.Ed.** Science Education (Biology) — Seoul National University, Seoul, Korea (Sep 2005 – Aug 2007)
-
-**B.S.** Biology Education — Seoul National University, Seoul, Korea (Mar 2001 – Aug 2005)
+분자생물학을 기반으로 하는 신경과학 연구자입니다. (1) 마우스 유전학과 행동 분석을 통해 파킨슨병을 비롯한 퇴행성 뇌질환의 새로운 모델 동물을 확립하는 일과, (2) 뇌 안에서 알파시뉴클레인과 타우의 병적 변화를 되돌리거나 예방할 수 있는 후보 약물과 표적 유전자를 발굴하는 일에 주력해 왔습니다.
 
 ---
 
-## Postdoctoral Research
+## 학력
 
-**Postdoctoral Associate** — Dept. Molecular & Human Genetics, Baylor College of Medicine, Houston, TX (Apr 2019 – present)
-- Zoghbi Lab; PI: Huda Y. Zoghbi, M.D.
+**박사(Ph.D.)** 생명과학부 — 서울대학교, 서울 (2007년 9월 – 2015년 8월)
 
-**Senior Fellow (Research)** — Dept. Biochemistry, University of Washington, Seattle, WA (May 2016 – Apr 2019)
+**석사(M.Ed.)** 과학교육과 생물전공 — 서울대학교, 서울 (2005년 9월 – 2007년 8월)
 
-**Post-Doc** — Biological Science, Seoul National University, Seoul, Korea (Sep 2015 – Apr 2016)
+**학사(B.S.)** 생물교육과 — 서울대학교, 서울 (2001년 3월 – 2005년 8월)
 
 ---
 
-## Publications
+## 연구 경력
 
-### Preprints
+**박사후연구원(Postdoctoral Associate)** — 분자·인간유전학과, 베일러 의과대학, 휴스턴, 텍사스 (2019년 4월 – 현재)
+- Zoghbi 랩 / 지도교수: Huda Y. Zoghbi, M.D.
+
+**선임연구원(Senior Fellow, Research)** — 생화학과, 워싱턴대학교, 시애틀, 워싱턴 (2016년 5월 – 2019년 4월)
+
+**박사후연구원** — 생명과학부, 서울대학교, 서울 (2015년 9월 – 2016년 4월)
+
+---
+
+## 논문
+
+### 프리프린트
 
 Kim Y\*, Vaidya B\*, Kim J, Bitar S, Shajan FJ, Verma AK, Yalamanchili HK, Singh S, Zoghbi HY. Astrocytic ACSBG1 depletion improves lipid-cytokine signaling and attenuates α-Synuclein pathology in a Parkinson's disease mouse model. *BioRxiv* May 2026. doi: https://doi.org/10.64898/2026.05.20.726454
 
 Vaidya B, Li Y, Kim Y, Osterman C, Revelli JP, Zoghbi HY. GLP-1 analogs restore inflammatory, mitochondrial and intercellular signaling networks in the Snca<sup>G51D/G51D</sup> knock-in mouse model of Parkinson's disease. *BioRxiv* May 2026. doi: https://doi.org/10.64898/2026.05.18.726024
 
-### Peer-Reviewed Articles
+### 학술지 게재 논문
 
 Lin Y, Jaimon E, Kim Y, Loftman A, Vijayakumaran A, Belfort B, Chiang C, Arenkiel B, Zoghbi HY, Pfeffer S. Selective loss of primary cilia and neurotrophic signaling in G51D α-synuclein mice highlights a common pathway to Parkinson's disease. *Proc. Natl. Acad. Sci. U.S.A.* 2026, 123(33) e2619797123.
 
@@ -76,43 +74,43 @@ Park H, Kam TI, Kim Y, Choi H, Gwon Y, Kim C, Koh JY, Jung YK. Neuropathogenic r
 
 Lee H, Noh JY, Oh Y, Kim Y, Chang JW, Chung CW, Lee ST, Kim M, Ryu H, Jung YK. IRE1 plays an essential role in ER stress-mediated aggregation of mutant huntingtin via the inhibition of autophagy flux. *Hum Mol Genet* 2012 Jan 1; 21(1):101–114.
 
-\* equal contribution
+\* 공동 제1저자
 
 ---
 
-## Selected Talks
+## 주요 발표
 
-- **Apr 2026** — 7th AKN Research Symposium, San Francisco, CA, USA
-- **Oct 2025** — NRI Seminar Series, Houston, TX, USA
-- **Dec 2023** — 2023 KSEA West Gulf Coast Regional Conference, Houston, TX, USA
-- **Jun 2022** — KSEA Texas Biomedical Trainee Symposium, Houston, TX, USA
-- **Dec 2022** — 2022 KSEA West Gulf Coast Regional Conference, Houston, TX, USA
-
----
-
-## Invited Talks
-
-- **Nov 2025** — BK21 Seminar (School of Medicine), Chonnam National University, Hwasoon, Korea
-- **May 2024** — Graduate School Seminar (Biology Education), Seoul National University, Seoul, Korea
-- **Jun 2022** — Biological Science Department Seminar, Seoul National University, Seoul, Korea
-- **May 2022** — Graduate School Seminar (Biology Education), Seoul National University, Seoul, Korea
+- **2026년 4월** — 7th AKN Research Symposium, 샌프란시스코, 미국
+- **2025년 10월** — NRI Seminar Series, 휴스턴, 미국
+- **2023년 12월** — 2023 KSEA West Gulf Coast Regional Conference, 휴스턴, 미국
+- **2022년 6월** — KSEA Texas Biomedical Trainee Symposium, 휴스턴, 미국
+- **2022년 12월** — 2022 KSEA West Gulf Coast Regional Conference, 휴스턴, 미국
 
 ---
 
-## Poster Presentations
+## 초청 강연
 
-- **May 2024** — International Society for Molecular Neurodegeneration Conference, Seoul, Korea
-- **Nov 2023** — Society for Neuroscience Meeting 2023, Washington D.C., USA
-- **Nov 2022** — Society for Neuroscience Meeting 2022, San Diego, CA, USA
-- **Mar 2017** — 58th Annual Drosophila Research Conference, San Diego, CA, USA
-- **Jul 2010** — 13th International Conference on Alzheimer's Disease and Related Disorders, Honolulu, HI, USA
+- **2025년 11월** — BK21 세미나(의과대학), 전남대학교, 화순
+- **2024년 5월** — 대학원 세미나(생물교육과), 서울대학교, 서울
+- **2022년 6월** — 생명과학부 세미나, 서울대학교, 서울
+- **2022년 5월** — 대학원 세미나(생물교육과), 서울대학교, 서울
 
 ---
 
-## Memberships in Professional Societies
+## 포스터 발표
 
-- **2024** — International Society for Molecular Neurodegeneration (ISMND)
-- **2022, 2024, 2026** — Society for Neuroscience (SfN)
-- **2019–present** — Korean-American Scientists and Engineers Association (KSEA)
-- **2016–2019** — Seattle Korean Biologists (SEAKB); President (2017–2019)
-- **2007–2015** — Korean Society for Biochemistry and Molecular Biology (KSBMB)
+- **2024년 5월** — International Society for Molecular Neurodegeneration Conference, 서울
+- **2023년 11월** — Society for Neuroscience Meeting 2023, 워싱턴 D.C., 미국
+- **2022년 11월** — Society for Neuroscience Meeting 2022, 샌디에이고, 미국
+- **2017년 3월** — 58th Annual Drosophila Research Conference, 샌디에이고, 미국
+- **2010년 7월** — 13th International Conference on Alzheimer's Disease and Related Disorders, 호놀룰루, 미국
+
+---
+
+## 학회 활동
+
+- **2024년** — International Society for Molecular Neurodegeneration (ISMND)
+- **2022, 2024, 2026년** — Society for Neuroscience (SfN)
+- **2019년–현재** — 재미한인과학기술자협회 (KSEA)
+- **2016–2019년** — 시애틀 한인생물학자모임 (SEAKB); 회장 (2017–2019)
+- **2007–2015년** — 한국생화학분자생물학회 (KSBMB)

@@ -1,0 +1,28 @@
+---
+layout: archive
+title: "연구"
+permalink: /ko/projects/
+lang: ko
+translation: /projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p class="wordwrap">Zoghbi 랩에서 진행 중인 파킨슨병 발병 기전 연구입니다. 병이 실제로 시작되는 과정을 담아내는 마우스 모델을 만들고, 그 모델을 이용해 신경세포와 교세포 사이에서 무엇이 &alpha;-Synuclein 병리를 일으키는지 확인하고 있습니다.</p>
+
+{% assign projects = site.projects | where: 'lang', 'ko' | sort: 'order' %}
+{% for post in projects %}
+  <div class="project__item">
+    <h2 class="archive__item-title">
+      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
+    </h2>
+    {% if post.status %}
+      <p class="project__status">{{ post.status }}</p>
+    {% endif %}
+    {% if post.summary %}
+      <p class="project__summary">{{ post.summary }}</p>
+    {% endif %}
+    <p><a href="{{ base_path }}{{ post.url }}">자세히 보기 &rarr;</a></p>
+  </div>
+{% endfor %}
