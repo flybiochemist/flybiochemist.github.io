@@ -2,6 +2,8 @@
 title: 하나의 설계도, 여러 개의 변주 - 스플라이싱과 유전자 치료
 date: 2026-07-16
 permalink: /posts/2026-07-16/
+lang: ko
+translation: /en/posts/2026-07-16/
 tags:
   - biology
   - molecular-biology

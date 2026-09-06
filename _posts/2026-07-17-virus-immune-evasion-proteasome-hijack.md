@@ -2,6 +2,8 @@
 title: 바이러스가 면역을 회피하는 법 - 프로테아좀 납치하기
 date: 2026-07-17
 permalink: /posts/2026-07-17-2/
+lang: ko
+translation: /en/posts/2026-07-17-2/
 tags:
   - biology
   - immunology

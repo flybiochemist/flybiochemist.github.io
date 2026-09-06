@@ -2,6 +2,8 @@
 title: Ank2와 별아교세포, 장기기억을 지키는 열쇠
 date: 2026-07-07
 permalink: /posts/2026-07-07/
+lang: ko
+translation: /en/posts/2026-07-07/
 tags:
   - biology
   - neuroscience

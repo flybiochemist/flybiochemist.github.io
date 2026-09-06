@@ -10,7 +10,8 @@ redirect_from:
 ---
 
 {% include base_path %}
-{% assign latest_post = site.posts.first %}
+{% assign en_posts = site.posts | where: 'lang', 'en' %}
+{% assign latest_post = en_posts | first %}
 {% assign latest_title = latest_post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 
 <div class="blog-landing">
@@ -34,16 +35,16 @@ redirect_from:
       </section>
 
       <p class="blog-landing__permalink">
-        <a href="{{ base_path }}{{ latest_post.url }}">이 글의 개별 페이지로 이동 &rarr;</a>
+        <a href="{{ base_path }}{{ latest_post.url }}">Go to this post &rarr;</a>
       </p>
     </article>
   </div>
 
   <aside class="blog-landing__sidebar sidebar__right">
     <nav class="toc">
-      <header><h3 class="nav__title">최근 글</h3></header>
+      <header><h3 class="nav__title">Recent posts</h3></header>
       <ul class="blog-landing__list">
-        {% for post in site.posts limit:21 offset:1 %}
+        {% for post in en_posts limit:20 offset:1 %}
           {% assign item_title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
           <li>
             <a href="{{ base_path }}{{ post.url }}">{{ item_title }}</a>
@@ -51,7 +52,7 @@ redirect_from:
           </li>
         {% endfor %}
       </ul>
-      <a href="{{ base_path }}/all-posts/" class="btn btn--small">전체 글 보기 &rarr;</a>
+      <a href="{{ base_path }}/all-posts/" class="btn btn--small">All posts &rarr;</a>
     </nav>
   </aside>
 </div>
