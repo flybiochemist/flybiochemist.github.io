@@ -15,24 +15,12 @@ Korean-only post simply does not appear in `/year-archive/` or `/all-posts/`.
 
 ## Done
 
-23 posts. Order worked so far: most recent science posts, then Parkinson's.
+33 posts. Order worked so far: most recent science posts, then Parkinson's
+(all science-tagged Parkinson's posts are now translated).
 
-## Next up — Parkinson's, science-focused
+## Next up — Alzheimer's and molecular biology
 
-- [ ] 2026-04-25 알츠하이머와 파킨슨에서 떠오르는 지질대사체 연구
-- [ ] 2026-04-05 암을 따라가는 알츠하이머, 알츠하이머를 따라가는 파킨슨
-- [ ] 2025-09-16 파킨슨 유병률의 환경적 요인
-- [ ] 2025-09-15 헤모글로빈이 적혈구 아닌데도 있다구요?
-- [ ] 2025-05-10 교과서 속 미토콘드리아는 지하철 노선도 같은 것
-- [ ] 2025-03-16 쥐 모델의 검증과 검증과 검증
-- [ ] 2025-01-16 생존자 편향과 파킨슨 쥐 모델
-- [ ] 2024-06-13 Autism과 지적장애에서 파킨슨병 확률이 3배?
-- [ ] 2024-05-16 파킨슨 병의 역사에 대한 재밌는 이야기들
-- [ ] 2024-02-07 퇴행성뇌질환 쥐 모델의 변비를 재는 법
-
-## After that
-
-Alzheimer's and molecular biology posts. To list remaining candidates:
+To list remaining candidates:
 
 ```python
 import io, os, yaml

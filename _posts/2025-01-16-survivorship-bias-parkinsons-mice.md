@@ -2,6 +2,8 @@
 title: 생존자 편향과 파킨슨 쥐 모델
 date: 2025-01-16
 permalink: /posts/2025-01-16/
+lang: ko
+translation: /en/posts/2025-01-16/
 tags:
   - biology
   - parkinsons

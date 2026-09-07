@@ -2,6 +2,8 @@
 title: 파킨슨 유병률의 환경적 요인
 date: 2025-09-16
 permalink: /posts/2025-09-16/
+lang: ko
+translation: /en/posts/2025-09-16/
 tags:
   - biology
   - parkinsons

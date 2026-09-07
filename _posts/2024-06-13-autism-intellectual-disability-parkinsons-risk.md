@@ -2,6 +2,8 @@
 title: Autism과 지적장애에서 파킨슨병 확률이 3배?
 date: 2024-06-13
 permalink: /posts/2024-06-13-2/
+lang: ko
+translation: /en/posts/2024-06-13-2/
 tags:
   - biology
   - autism

@@ -2,6 +2,8 @@
 title: 쥐 모델의 검증과 검증과 검증
 date: 2025-03-16
 permalink: /posts/2025-03-16/
+lang: ko
+translation: /en/posts/2025-03-16/
 tags:
   - biology
   - parkinsons

@@ -2,6 +2,8 @@
 title: 헤모글로빈이 적혈구 아닌데도 있다구요?
 date: 2025-09-15
 permalink: /posts/2025-09-15/
+lang: ko
+translation: /en/posts/2025-09-15/
 tags:
   - biology
   - alzheimers

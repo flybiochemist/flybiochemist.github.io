@@ -2,6 +2,8 @@
 title: 알츠하이머와 파킨슨에서 떠오르는 지질대사체 연구
 date: 2026-04-25
 permalink: /posts/2026-04-25/
+lang: ko
+translation: /en/posts/2026-04-25/
 tags:
   - biology
   - alzheimers

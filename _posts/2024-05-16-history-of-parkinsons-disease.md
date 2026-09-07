@@ -2,6 +2,8 @@
 title: 파킨슨 병의 역사에 대한 재밌는 이야기들
 date: 2024-05-16
 permalink: /posts/2024-05-16/
+lang: ko
+translation: /en/posts/2024-05-16/
 tags:
   - biology
   - parkinsons

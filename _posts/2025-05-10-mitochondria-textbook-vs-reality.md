@@ -2,6 +2,8 @@
 title: 교과서 속 미토콘드리아는 지하철 노선도 같은 것
 date: 2025-05-10
 permalink: /posts/2025-05-10/
+lang: ko
+translation: /en/posts/2025-05-10/
 tags:
   - biology
   - parkinsons

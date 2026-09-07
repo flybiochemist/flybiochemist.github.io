@@ -2,6 +2,8 @@
 title: 퇴행성뇌질환 쥐 모델의 변비를 재는 법
 date: 2024-02-07
 permalink: /posts/2024-02-07/
+lang: ko
+translation: /en/posts/2024-02-07/
 tags:
   - biology
   - alzheimers

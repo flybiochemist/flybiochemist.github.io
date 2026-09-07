@@ -2,6 +2,8 @@
 title: 암을 따라가는 알츠하이머, 알츠하이머를 따라가는 파킨슨
 date: 2026-04-05
 permalink: /posts/2026-04-05/
+lang: ko
+translation: /en/posts/2026-04-05/
 tags:
   - biology
   - parkinsons
