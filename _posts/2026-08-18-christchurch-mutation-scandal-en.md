@@ -15,3 +15,5 @@ ApoE genotype has long been known to shift Alzheimer's risk — E4 raises it, E2
 Recently, though, investigative reporting has surfaced evidence that the first author and corresponding author couple behind that original paper may have manipulated the data. Science just ran a very long piece raking through the image analysis and gathering interviews with other scientists. Watching the parade — from Shackleton, who was skeptical of Christchurch from the start, to Holtzman, who published enthusiastically on its effects and is now backing away fast — it looks like nothing but embarrassment is left for the original authors.
 
 If your English is up to it, read the original piece. This is what real investigative reporting looks like.
+
+- https://www.science.org/content/article/science-investigation-casts-doubt-genes-hailed-warding-alzheimer-s-disease
