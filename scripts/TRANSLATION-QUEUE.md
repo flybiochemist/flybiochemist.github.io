@@ -15,8 +15,11 @@ Korean-only post simply does not appear in `/year-archive/` or `/all-posts/`.
 
 ## Done
 
-33 posts. Order worked so far: most recent science posts, then Parkinson's
-(all science-tagged Parkinson's posts are now translated).
+39 posts. Order worked so far: most recent science posts, then Parkinson's
+(all science-tagged Parkinson's posts are now translated), then six posts
+from the 2026-09-09 Threads export (tet-inducible systems, the Christchurch
+mutation scandal, tau/STARFISH, aging clocks, faked antibody validation
+data, and tau/necroptosis under low glucose).
 
 ## Next up — Alzheimer's and molecular biology
 
