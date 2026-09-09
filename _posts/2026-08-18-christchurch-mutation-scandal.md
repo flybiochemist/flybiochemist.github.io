@@ -18,4 +18,4 @@ ApoE라는 유전자의 경우 E4면 치매확률 증가, E2면 감소정도로 
 
 ## 참고문헌
 
-[<!-- TODO: 링크 추가 -->](https://www.science.org/content/article/science-investigation-casts-doubt-genes-hailed-warding-alzheimer-s-disease)
+- https://www.science.org/content/article/science-investigation-casts-doubt-genes-hailed-warding-alzheimer-s-disease
