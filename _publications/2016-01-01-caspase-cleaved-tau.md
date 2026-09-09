@@ -5,6 +5,11 @@ category: manuscripts
 permalink: /publication/2016-caspase-cleaved-tau
 date: 2016-01-01
 venue: 'Neurobiology of Disease'
-paperurl: ''
+paperurl: 'https://pubmed.ncbi.nlm.nih.gov/26704708/'
 citation: 'Kim Y*, Choi H*, Lee W, Park H, Kam TI, Hong SH, Nah JH, Jung SM, Shin B, Lee H, Choi TY, Choo H, Kim KK, Choi SY, Kayed R, Jung YK. (2016). &quot;Caspase-cleaved tau exhibits rapid memory impairment associated with tau oligomers in a transgenic mouse model.&quot; <i>Neurobiology of Disease</i>, 87, 19&ndash;28.'
+excerpt: ""
 ---
+
+## Abstract
+
+In neurodegenerative diseases like AD, tau forms neurofibrillary tangles, composed of tau protein. In the AD brain, activated caspases cleave tau at the 421th Asp, generating a caspase-cleaved form of tau, TauC3. Although TauC3 is known to assemble rapidly into filaments in vitro, a role of TauC3 in vivo remains unclear. Here, we generated a transgenic mouse expressing human TauC3 using a neuron-specific promoter. In this mouse, we found that human TauC3 was expressed in the hippocampus and cortex. Interestingly, TauC3 mice showed drastic learning and spatial memory deficits and reduced synaptic density at a young age (2-3months). Notably, tau oligomers as well as tau aggregates were found in TauC3 mice showing memory deficits. Further, i.p. or i.c.v. injection with methylene blue or Congo red, inhibitors of tau aggregation in vitro, and i.p. injection with rapamycin significantly reduced the amounts of tau oligomers in the hippocampus, rescued spine density, and attenuated memory impairment in TauC3 mice. Together, these results suggest that TauC3 facilitates early memory impairment in transgenic mice accompanied with tau oligomer formation, providing insight into the role of TauC3 in the AD pathogenesis associated with tau oligomers and a useful AD model to test drug candidates.
