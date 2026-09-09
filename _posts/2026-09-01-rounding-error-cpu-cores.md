@@ -2,6 +2,8 @@
 title: CPU 코어 수가 다르면 계산 결과도 달라지는 이유
 date: 2026-09-01
 permalink: /posts/2026-09-01-2/
+lang: ko
+translation: /en/posts/2026-09-01-2/
 tags:
   - biology
   - molecular-biology

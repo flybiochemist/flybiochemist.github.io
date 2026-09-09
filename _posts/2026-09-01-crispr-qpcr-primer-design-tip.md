@@ -2,6 +2,8 @@
 title: CRISPR 넉다운을 qPCR로 확인할 때 프라이머 위치가 중요한 이유
 date: 2026-09-01
 permalink: /posts/2026-09-01/
+lang: ko
+translation: /en/posts/2026-09-01/
 tags:
   - biology
   - molecular-biology

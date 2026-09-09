@@ -2,6 +2,8 @@
 title: 유전자 하나 넣었다고 같은 세포주일까
 date: 2026-08-15
 permalink: /posts/2026-08-15/
+lang: ko
+translation: /en/posts/2026-08-15/
 tags:
   - biology
   - stem-cells

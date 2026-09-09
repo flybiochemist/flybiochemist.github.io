@@ -2,6 +2,8 @@
 title: 무모함이 때로는 이득이 될 때
 date: 2026-08-24
 permalink: /posts/2026-08-24/
+lang: ko
+translation: /en/posts/2026-08-24/
 tags:
   - biology
   - immunology

@@ -2,6 +2,8 @@
 title: 인용에도 급이 있다
 date: 2026-08-11
 permalink: /posts/2026-08-11/
+lang: ko
+translation: /en/posts/2026-08-11/
 tags:
   - biology
   - parkinsons

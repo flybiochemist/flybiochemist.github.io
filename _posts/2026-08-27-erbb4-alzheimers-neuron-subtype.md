@@ -2,6 +2,8 @@
 title: Erbb4와 알츠하이머, 신경세포 아형별 분자 변화
 date: 2026-08-27
 permalink: /posts/2026-08-27/
+lang: ko
+translation: /en/posts/2026-08-27/
 tags:
   - biology
   - alzheimers
