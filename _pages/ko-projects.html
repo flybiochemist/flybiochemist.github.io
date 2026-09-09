@@ -12,17 +12,29 @@ author_profile: true
 <p class="wordwrap">Zoghbi 랩에서 진행 중인 파킨슨병 발병 기전 연구입니다. 병이 실제로 시작되는 과정을 담아내는 마우스 모델을 만들고, 그 모델을 이용해 신경세포와 교세포 사이에서 무엇이 &alpha;-Synuclein 병리를 일으키는지 확인하고 있습니다.</p>
 
 {% assign projects = site.projects | where: 'lang', 'ko' | sort: 'order' %}
+
+{% if projects.size > 1 %}
+<nav class="project__toc" aria-label="프로젝트로 바로 가기">
+  <ul>
+    {% for post in projects %}
+      <li><a href="#{{ post.slug }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+{% endif %}
+
 {% for post in projects %}
-  <div class="project__item">
-    <h2 class="archive__item-title">
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+  <div class="project__item" id="{{ post.slug }}">
+    <h2 class="archive__item-title">{{ post.title }}</h2>
     {% if post.status %}
       <p class="project__status">{{ post.status }}</p>
     {% endif %}
     {% if post.summary %}
       <p class="project__summary">{{ post.summary }}</p>
     {% endif %}
-    <p><a href="{{ base_path }}{{ post.url }}">자세히 보기 &rarr;</a></p>
+    <div class="page__content project__body">
+      {{ post.content | replace: '<h2', '<h3' | replace: '</h2>', '</h3>' }}
+    </div>
+    <p class="project__permalink"><a href="{{ base_path }}{{ post.url }}">이 프로젝트의 별도 페이지 보기 &rarr;</a></p>
   </div>
 {% endfor %}

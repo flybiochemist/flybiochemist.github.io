@@ -12,17 +12,29 @@ author_profile: true
 <p class="wordwrap">Current work in the Zoghbi Lab on the mechanisms of Parkinson's disease — building a mouse model that captures how the disease actually begins, and using it to test what drives &alpha;-Synuclein pathology between neurons and glia.</p>
 
 {% assign projects = site.projects | where: 'lang', 'en' | sort: 'order' %}
+
+{% if projects.size > 1 %}
+<nav class="project__toc" aria-label="Jump to a project">
+  <ul>
+    {% for post in projects %}
+      <li><a href="#{{ post.slug }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</nav>
+{% endif %}
+
 {% for post in projects %}
-  <div class="project__item">
-    <h2 class="archive__item-title">
-      <a href="{{ base_path }}{{ post.url }}">{{ post.title }}</a>
-    </h2>
+  <div class="project__item" id="{{ post.slug }}">
+    <h2 class="archive__item-title">{{ post.title }}</h2>
     {% if post.status %}
       <p class="project__status">{{ post.status }}</p>
     {% endif %}
     {% if post.summary %}
       <p class="project__summary">{{ post.summary }}</p>
     {% endif %}
-    <p><a href="{{ base_path }}{{ post.url }}">Read more &rarr;</a></p>
+    <div class="page__content project__body">
+      {{ post.content | replace: '<h2', '<h3' | replace: '</h2>', '</h3>' }}
+    </div>
+    <p class="project__permalink"><a href="{{ base_path }}{{ post.url }}">View this project on its own page &rarr;</a></p>
   </div>
 {% endfor %}

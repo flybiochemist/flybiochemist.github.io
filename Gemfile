@@ -11,3 +11,7 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+
+# Windows needs this for jekyll serve to resolve its configured timezone;
+# a harmless no-op on the Linux runner that builds GitHub Pages.
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
