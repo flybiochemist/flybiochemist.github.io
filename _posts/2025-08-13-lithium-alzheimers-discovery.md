@@ -2,6 +2,8 @@
 title: 알츠하이머와 리튬 - 치료제 도전과 실패 속에 피어난 새로운 발견
 date: 2025-08-13
 permalink: /posts/2025-08-13/
+lang: ko
+translation: /en/posts/2025-08-13/
 tags:
   - biology
   - alzheimers

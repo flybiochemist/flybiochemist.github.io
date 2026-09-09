@@ -2,6 +2,8 @@
 title: 치매의 진행과 몸의 상호작용 - 치매발 가속노화와 건강의 중요성
 date: 2025-05-28
 permalink: /posts/2025-05-28/
+lang: ko
+translation: /en/posts/2025-05-28/
 tags:
   - biology
   - alzheimers

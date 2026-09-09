@@ -2,6 +2,8 @@
 title: 유전체 속 바이러스 DNA와 시냅스를 갉아먹는 미세아교세포 - SETDB1과 자폐
 date: 2026-03-11
 permalink: /posts/2026-03-11/
+lang: ko
+translation: /en/posts/2026-03-11/
 tags:
   - biology
   - autism

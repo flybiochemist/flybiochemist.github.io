@@ -2,6 +2,8 @@
 title: 다운증후군 환자의 알츠하이머, 뇌전증 약이 지연시킬 수 있을까
 date: 2026-02-23
 permalink: /posts/2026-02-23/
+lang: ko
+translation: /en/posts/2026-02-23/
 tags:
   - biology
   - alzheimers

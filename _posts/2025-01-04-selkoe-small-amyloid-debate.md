@@ -2,6 +2,8 @@
 title: 알츠하이머 학계의 공개 맞짱 - Selkoe와 Small의 논쟁
 date: 2025-01-04
 permalink: /posts/2025-01-04/
+lang: ko
+translation: /en/posts/2025-01-04/
 tags:
   - biology
   - alzheimers

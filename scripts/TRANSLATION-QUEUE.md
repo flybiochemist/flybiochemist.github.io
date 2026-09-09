@@ -15,13 +15,21 @@ Korean-only post simply does not appear in `/year-archive/` or `/all-posts/`.
 
 ## Done
 
-39 posts. Order worked so far: most recent science posts, then Parkinson's
-(all science-tagged Parkinson's posts are now translated), then six posts
-from the 2026-09-09 Threads export (tet-inducible systems, the Christchurch
-mutation scandal, tau/STARFISH, aging clocks, faked antibody validation
-data, and tau/necroptosis under low glucose).
+55 posts. Order worked so far: most recent science posts, then Parkinson's
+(all science-tagged Parkinson's posts are now translated), then all twelve
+posts from the 2026-09-09 Threads export (tet-inducible systems, the
+Christchurch mutation scandal, tau/STARFISH, aging clocks, faked antibody
+validation data, tau/necroptosis under low glucose, citation joy levels,
+iPSC subline drift, Candida auris and hair follicles, ErbB4/Alzheimer's,
+qPCR primer placement, and a CPU-core rounding error), then ten
+Alzheimer's/molecular-biology posts: brain organoids and assembloids,
+protein tagging methods, Down syndrome and levetiracetam, the 40Hz monkey
+experiment, APOE4's lipid-transport mechanism, the Selkoe-Small amyloid
+debate, dementia-driven accelerated aging in the body, SETDB1/ERV/microglia
+in autism, the KAIST 40Hz reproducibility post, and the lithium-Alzheimer's
+sequestration discovery.
 
-## Next up — Alzheimer's and molecular biology
+## Next up — Alzheimer's and molecular biology (79 candidates remain)
 
 To list remaining candidates:
 

@@ -2,6 +2,8 @@
 title: 40Hz 소리 실험, 원숭이에서는 어떻게 나왔을까
 date: 2026-01-23
 permalink: /posts/2026-01-23/
+lang: ko
+translation: /en/posts/2026-01-23/
 tags:
   - biology
   - alzheimers

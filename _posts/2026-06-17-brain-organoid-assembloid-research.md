@@ -2,6 +2,8 @@
 title: 뇌 오가노이드와 어셈블로이드, 신경질환 연구의 새 도구
 date: 2026-06-17
 permalink: /posts/2026-06-17/
+lang: ko
+translation: /en/posts/2026-06-17/
 tags:
   - biology
   - stem-cells

@@ -2,6 +2,8 @@
 title: APOE4는 어떻게 알츠하이머 위험을 높이는가
 date: 2025-06-11
 permalink: /posts/2025-06-11/
+lang: ko
+translation: /en/posts/2025-06-11/
 tags:
   - biology
   - alzheimers

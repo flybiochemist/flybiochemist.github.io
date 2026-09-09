@@ -2,6 +2,8 @@
 title: '단백질 혹은 분자에 꼬리표 달기'
 date: 2026-06-07
 permalink: /posts/2026-06-07/
+lang: ko
+translation: /en/posts/2026-06-07/
 tags:
   - biology
   - molecular-biology

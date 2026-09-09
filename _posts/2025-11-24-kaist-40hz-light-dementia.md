@@ -2,6 +2,8 @@
 title: 40Hz 빛과 소리로 치매를 개선한다는 연구, 재현 논쟁
 date: 2025-11-24
 permalink: /posts/2025-11-24-2/
+lang: ko
+translation: /en/posts/2025-11-24-2/
 tags:
   - biology
   - alzheimers
