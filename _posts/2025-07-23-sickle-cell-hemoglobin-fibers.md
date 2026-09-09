@@ -2,6 +2,8 @@
 title: 겸형적혈구 빈혈증의 비정상 헤모글로빈 뼈대와 치료법들
 date: 2025-07-23
 permalink: /posts/2025-07-23/
+lang: ko
+translation: /en/posts/2025-07-23/
 tags:
   - biology
   - genetics

@@ -2,6 +2,8 @@
 title: 산전검사와 조기암진단을 같은 방법으로 - 세포 밖 DNA 검출
 date: 2025-08-17
 permalink: /posts/2025-08-17/
+lang: ko
+translation: /en/posts/2025-08-17/
 tags:
   - biology
   - genetics

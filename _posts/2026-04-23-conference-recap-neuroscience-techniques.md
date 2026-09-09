@@ -2,6 +2,8 @@
 title: 학회 후기 - 투포톤 현미경부터 나노튜브, 발달신경생물학까지
 date: 2026-04-23
 permalink: /posts/2026-04-23/
+lang: ko
+translation: /en/posts/2026-04-23/
 tags:
   - biology
   - neuroscience

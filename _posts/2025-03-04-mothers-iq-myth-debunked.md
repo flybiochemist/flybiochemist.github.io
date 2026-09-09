@@ -2,6 +2,8 @@
 title: "'아이의 지능은 엄마를 닮는다'는 주장은 어디서 왔을까"
 date: 2025-03-04
 permalink: /posts/2025-03-04/
+lang: ko
+translation: /en/posts/2025-03-04/
 tags:
   - genetics
   - science-communication

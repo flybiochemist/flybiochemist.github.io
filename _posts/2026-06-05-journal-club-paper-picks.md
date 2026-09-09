@@ -2,6 +2,8 @@
 title: 이번주 저널클럽에서 소개할 다섯 편의 논문
 date: 2026-06-05
 permalink: /posts/2026-06-05/
+lang: ko
+translation: /en/posts/2026-06-05/
 tags:
   - biology
   - autism

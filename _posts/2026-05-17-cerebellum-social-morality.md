@@ -2,6 +2,8 @@
 title: '소뇌의 운동 이외의 기능 - 사회성과 도덕성?'
 date: 2026-05-17
 permalink: /posts/2026-05-17/
+lang: ko
+translation: /en/posts/2026-05-17/
 tags:
   - biology
   - autism

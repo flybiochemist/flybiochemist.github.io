@@ -2,6 +2,8 @@
 title: 어떤 희귀 뇌전증 치료의 환자 맞춤형 치료시도와 완치의 어려움
 date: 2026-05-06
 permalink: /posts/2026-05-06/
+lang: ko
+translation: /en/posts/2026-05-06/
 tags:
   - biology
   - neuroscience

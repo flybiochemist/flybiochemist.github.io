@@ -2,6 +2,8 @@
 title: 버려진 DNA 시퀀싱 데이터에서 건져올린 네이쳐 페이퍼
 date: 2026-01-29
 permalink: /posts/2026-01-29/
+lang: ko
+translation: /en/posts/2026-01-29/
 tags:
   - biology
   - genetics

@@ -2,6 +2,8 @@
 title: 왜 논문은 유전자가 성염색체 위에 있는지 언급해야 할까
 date: 2026-03-24
 permalink: /posts/2026-03-24/
+lang: ko
+translation: /en/posts/2026-03-24/
 tags:
   - biology
   - genetics

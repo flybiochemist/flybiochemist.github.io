@@ -2,6 +2,8 @@
 title: 61년째 어둠 속에서 키우는 일본의 초장기 초파리 연구
 date: 2026-03-24
 permalink: /posts/2026-03-24-2/
+lang: ko
+translation: /en/posts/2026-03-24-2/
 tags:
   - biology
   - drosophila
