@@ -1,5 +1,5 @@
 ---
-title: "G51D 넉인 마우스"
+title: "파킨슨병 전구기를 재현하는 G51D α-Synuclein 넉인 마우스"
 collection: projects
 permalink: /ko/projects/g51d-knock-in-mice
 lang: ko

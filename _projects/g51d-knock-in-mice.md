@@ -1,5 +1,5 @@
 ---
-title: "G51D knock-in mice"
+title: "A G51D α-Synuclein knock-in mouse that models prodromal Parkinson's disease"
 collection: projects
 permalink: /projects/g51d-knock-in-mice
 lang: en
