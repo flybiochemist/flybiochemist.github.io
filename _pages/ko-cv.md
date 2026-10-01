@@ -80,7 +80,7 @@ Lee H, Noh JY, Oh Y, Kim Y, Chang JW, Chung CW, Lee ST, Kim M, Ryu H, Jung YK. I
 
 ## 주요 발표
 
-- **2026년 4월** — 7th AKN Research Symposium, 샌프란시스코, 미국
+- **2026년 4월** — 7th AKN Research Symposium, Stanford University, 샌프란시스코, 미국
 - **2025년 10월** — NRI Seminar Series, 휴스턴, 미국
 - **2023년 12월** — 2023 KSEA West Gulf Coast Regional Conference, 휴스턴, 미국
 - **2022년 6월** — KSEA Texas Biomedical Trainee Symposium, 휴스턴, 미국

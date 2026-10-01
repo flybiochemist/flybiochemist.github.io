@@ -3,7 +3,7 @@ title: "Neuropathogenic role of adenylate kinase-1 in Aβ-mediated tau phosphory
 collection: publications
 category: manuscripts
 permalink: /publication/2012-adenylate-kinase-tau
-date: 2012-06-15
+date: 2012-03-13
 venue: 'Human Molecular Genetics'
 paperurl: 'https://pubmed.ncbi.nlm.nih.gov/22419736/'
 citation: 'Park H, Kam TI, Kim Y, Choi H, Gwon Y, Kim C, Koh JY, Jung YK. (2012). &quot;Neuropathogenic role of adenylate kinase-1 in A&beta;-mediated tau phosphorylation via AMPK and GSK3&beta;.&quot; <i>Human Molecular Genetics</i>, 21(12), 2725&ndash;2737.'

@@ -3,7 +3,7 @@ title: "Pimozide reduces toxic forms of tau in TauC3 mice via 5′ adenosine mon
 collection: publications
 category: manuscripts
 permalink: /publication/2017-pimozide-tau
-date: 2017-01-01
+date: 2017-07-11
 venue: 'Journal of Neurochemistry'
 paperurl: 'https://pubmed.ncbi.nlm.nih.gov/28632947/'
 citation: 'Kim Y*, Jeong EI*, Nah J, Yoo SM, Lee W, Kim Y, Moon S, Kim Y, Hong SH, Jung YK. (2017). &quot;Pimozide reduces toxic forms of tau in TauC3 mice via 5&prime; adenosine monophosphate-activated protein kinase-mediated autophagy.&quot; <i>Journal of Neurochemistry</i>, 142(5), 734&ndash;746.'

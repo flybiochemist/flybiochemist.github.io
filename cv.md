@@ -82,7 +82,7 @@ Lee H, Noh JY, Oh Y, Kim Y, Chang JW, Chung CW, Lee ST, Kim M, Ryu H, Jung YK. I
 
 ## Selected Talks
 
-- **Apr 2026** — 7th AKN Research Symposium, San Francisco, CA, USA
+- **Apr 2026** — 7th AKN Research Symposium, Stanford University, San Francisco, CA, USA
 - **Oct 2025** — NRI Seminar Series, Houston, TX, USA
 - **Dec 2023** — 2023 KSEA West Gulf Coast Regional Conference, Houston, TX, USA
 - **Jun 2022** — KSEA Texas Biomedical Trainee Symposium, Houston, TX, USA

@@ -3,7 +3,7 @@ title: "Alpha-Synuclein Phosphomimetic Y39E and S129D Knock-In Mice Show Cytosol
 collection: publications
 category: manuscripts
 permalink: /publication/2025-alpha-synuclein-phosphomimetic
-date: 2025-01-01
+date: 2025-04-11
 venue: 'eNeuro'
 paperurl: 'https://pubmed.ncbi.nlm.nih.gov/40164505/'
 citation: 'Kim Y, Vaidya B, McInnes J, Zoghbi HY. (2025). &quot;Alpha-Synuclein Phosphomimetic Y39E and S129D Knock-In Mice Show Cytosolic Alpha-Synuclein Localization without Developing Neurodegeneration or Motor Deficits.&quot; <i>eNeuro</i>, 12(4).'

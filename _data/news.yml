@@ -2,31 +2,90 @@
 #
 # date: shown as written, so use "2026.08" when the month is known and just
 #       "2025" when it is not.
+# type: shown as a small label before the text. One of
+#       first-author, co-first-author, co-author, talk, poster, seminar
+#       (labels for each are in _includes/home-sections.html).
 # en / ko: one-line text for the English and Korean home pages. Markdown is
 #          allowed (e.g. *italics*).
 # url: optional link, used on both pages.
 
 - date: "2026.08"
+  type: co-author
   en: "Paper out in *PNAS*: selective loss of primary cilia and neurotrophic signaling in G51D α-synuclein mice."
   ko: "*PNAS* 논문 게재: G51D α-synuclein 마우스에서 일차 섬모와 신경영양 신호가 선택적으로 소실됨을 보고했습니다."
   url: /publication/2026-primary-cilia-g51d
 
 - date: "2026.05"
+  type: co-first-author
   en: "Preprint on *bioRxiv*: astrocytic ACSBG1 depletion attenuates α-Synuclein pathology in a Parkinson's model."
   ko: "*bioRxiv* 프리프린트 공개: 별아교세포의 ACSBG1을 없애면 파킨슨병 모델의 α-Synuclein 병리가 줄어듭니다."
   url: /publication/2026-acsbg1-parkinson
 
 - date: "2026.05"
+  type: co-author
   en: "Preprint on *bioRxiv*: GLP-1 analogs restore inflammatory, mitochondrial and intercellular signaling in *Snca*<sup>G51D/G51D</sup> mice."
   ko: "*bioRxiv* 프리프린트 공개: GLP-1 유사체가 *Snca*<sup>G51D/G51D</sup> 마우스의 염증·미토콘드리아·세포 간 신호를 회복시킵니다."
   url: /publication/2026-glp1-snca-g51d
 
-- date: "2025"
+- date: "2026.04"
+  type: talk
+  en: "Talk at the 7th AKN Research Symposium, Stanford University, San Francisco: ACSBG1 depletion in astrocytes attenuates α-Synuclein pathology via lipid–cytokine crosstalk."
+  ko: "7th AKN Research Symposium 구두 발표, 샌프란시스코 Stanford University: 별아교세포의 ACSBG1을 없애면 지질-사이토카인 상호작용을 통해 α-Synuclein 병리가 줄어듭니다."
+  url: /talks/2026-04-18-talk-1
+
+- date: "2025.11"
+  type: seminar
+  en: "Seminar at the BK21 program, Chonnam National University College of Medicine, Hwasun: α-Syn knock-in mice for dissecting the mechanism of Parkinson's disease."
+  ko: "전남대학교 의과대학 BK21 세미나, 화순: 파킨슨병 기전 규명을 위한 α-Syn 넉인 마우스."
+  url: /talks/2025-11-26-talk-2
+
+- date: "2025.10"
+  type: seminar
+  en: "Seminar at the Duncan NRI seminar series, Baylor College of Medicine: depleting astrocytic Acsbg1 attenuates α-Synuclein pathology in neurons and in vivo."
+  ko: "Baylor 의과대학 Duncan NRI 세미나: 별아교세포의 Acsbg1을 없애면 신경세포와 생체 내에서 α-Synuclein 병리가 줄어듭니다."
+  url: /talks/2025-10-10-talk-3
+
+- date: "2025.04"
+  type: first-author
+  en: "Paper out in *eNeuro*: α-Synuclein phosphomimetic Y39E and S129D knock-in mice show cytosolic α-Synuclein without neurodegeneration or motor deficits."
+  ko: "*eNeuro* 논문 게재: α-Synuclein 인산화 모방 Y39E·S129D 넉인 마우스는 α-Synuclein이 세포질에 분포하지만 신경 퇴행이나 운동 장애는 나타나지 않습니다."
+  url: /publication/2025-alpha-synuclein-phosphomimetic
+
+- date: "2025.03"
+  type: co-author
   en: "Paper out in *Cell Reports*: haploinsufficiency of ITSN1 is associated with Parkinson's disease."
   ko: "*Cell Reports* 논문 게재: ITSN1 반수부족이 파킨슨병과 관련됨을 보고했습니다."
   url: /publication/2025-haploinsufficiency-itsn1
 
-- date: "2024"
+- date: "2024.11"
+  type: co-author
+  en: "Paper out in *Nature Neuroscience*: TYK2 is a critical regulator of tau levels, phosphorylation and aggregation in tauopathy."
+  ko: "*Nature Neuroscience* 논문 게재: TYK2가 타우병증에서 타우의 양, 인산화, 응집을 조절함을 보고했습니다."
+  url: /publication/2024-tyk2-tau
+
+- date: "2024.09"
+  type: first-author
   en: "Paper out in *PNAS*: in G51D knock-in mice, smell and gut problems come before motor abnormalities."
   ko: "*PNAS* 논문 게재: G51D 넉인 마우스에서 후각·장 기능 이상이 운동 이상보다 먼저 나타납니다."
   url: /publication/2024-olfactory-deficit-snca-g51d
+
+- date: "2024.05"
+  type: poster
+  en: "Poster at the International Society for Molecular Neurodegeneration Conference, Seoul."
+  ko: "International Society for Molecular Neurodegeneration Conference 포스터 발표, 서울."
+
+- date: "2024.05"
+  type: seminar
+  en: "Seminar at the Graduate School (Biology Education), Seoul National University."
+  ko: "서울대학교 대학원(생물교육) 세미나."
+
+- date: "2023.12"
+  type: talk
+  en: "Talk at the 2023 KSEA West Gulf Coast Regional Conference, Houston: olfactory and gut deficits precede motor abnormalities in G51D knock-in mice."
+  ko: "2023 KSEA West Gulf Coast Regional Conference 구두 발표, 휴스턴: G51D 넉인 마우스에서 후각·장 이상이 운동 이상보다 먼저 나타납니다."
+  url: /talks/2023-12-07-talk-4
+
+- date: "2023.11"
+  type: poster
+  en: "Poster at the Society for Neuroscience Meeting 2023, Washington D.C."
+  ko: "Society for Neuroscience Meeting 2023 포스터 발표, 워싱턴 D.C."

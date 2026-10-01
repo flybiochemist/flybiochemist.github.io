@@ -16,6 +16,7 @@ Usage: include home-sections.html with lang="en" or lang="ko"
 {% assign url_projects = "/ko/projects/" %}
 {% assign url_pubs = "/ko/publications/" %}
 {% assign url_posts = "/ko/blog/" %}
+{% assign news_labels = "first-author:제1저자|co-first-author:공동 제1저자|co-author:공저자|talk:구두 발표|poster:포스터|seminar:세미나" | split: "|" %}
 {% else %}
 {% assign home_projects = site.projects | where: 'lang', 'en' | sort: 'order' %}
 {% assign home_posts = site.posts | where: 'lang', 'en' %}
@@ -28,6 +29,7 @@ Usage: include home-sections.html with lang="en" or lang="ko"
 {% assign url_projects = "/projects/" %}
 {% assign url_pubs = "/publications/" %}
 {% assign url_posts = "/year-archive/" %}
+{% assign news_labels = "first-author:First author|co-first-author:Co-first author|co-author:Co-author|talk:Talk|poster:Poster|seminar:Seminar" | split: "|" %}
 {% endif %}
 
 <h2>{{ label_projects }}</h2>
@@ -44,12 +46,14 @@ Usage: include home-sections.html with lang="en" or lang="ko"
 
 <h2>{{ label_news }}</h2>
 <ul class="home-news">
-{% for item in site.data.news limit: 6 %}
+{% for item in site.data.news limit: 16 %}
 {% if home_lang == 'ko' %}{% assign news_text = item.ko | default: item.en %}{% else %}{% assign news_text = item.en %}{% endif %}
 {% assign news_html = news_text | markdownify | remove: "<p>" | remove: "</p>" | strip %}
 <li class="home-news__item">
 <span class="home-news__date">{{ item.date }}</span>
-<span class="home-news__text">{% if item.url %}<a href="{{ base_path }}{{ item.url }}">{{ news_html }}</a>{% else %}{{ news_html }}{% endif %}</span>
+{% assign news_label = "" %}
+{% for pair in news_labels %}{% assign kv = pair | split: ":" %}{% if kv[0] == item.type %}{% assign news_label = kv[1] %}{% endif %}{% endfor %}
+<span class="home-news__text">{% if news_label != "" %}<span class="home-news__tag home-news__tag--{{ item.type }}">{{ news_label }}</span> {% endif %}{% if item.url %}<a href="{{ base_path }}{{ item.url }}">{{ news_html }}</a>{% else %}{{ news_html }}{% endif %}</span>
 </li>
 {% endfor %}
 </ul>
