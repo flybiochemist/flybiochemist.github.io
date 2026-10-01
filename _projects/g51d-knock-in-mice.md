@@ -113,7 +113,7 @@ Non-motor signs precede motor signs by three months, mirroring the two-decade pr
 
 The progression maps onto Braak staging: olfactory and vagal involvement at stages I–II (3–6 months), reaching the nigra at stages III–IV (9–12 months). Because pathology is detectable at 3 months but motor symptoms do not arrive until 9, the model opens a **prodromal window** — a period in which a candidate therapy can be tested well before irreversible neuron loss.
 
-This is the model I now use to ask whether interventions can change the course of the disease rather than treat its endpoint, including the astrocytic work described in [ACSBG1-mediated astrocyte–neuron crosstalk](/projects/acsbg1-astrocyte-neuron-crosstalk).
+This is the model I now use to ask whether interventions can change the course of the disease rather than treat its endpoint, including the astrocytic work described in [Astrocytic ACSBG1 drives neuronal α-Synuclein pathology through lipid–cytokine signaling](/projects/acsbg1-astrocyte-neuron-crosstalk).
 
 ## Reference
 
