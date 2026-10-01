@@ -1,5 +1,5 @@
 ---
-title: "ACSBG1-mediated astrocyte–neuron crosstalk in synucleinopathy"
+title: "Astrocytic ACSBG1 drives neuronal α-Synuclein pathology through lipid–cytokine signaling"
 collection: projects
 permalink: /projects/acsbg1-astrocyte-neuron-crosstalk
 lang: en

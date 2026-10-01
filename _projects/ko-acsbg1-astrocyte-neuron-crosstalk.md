@@ -1,5 +1,5 @@
 ---
-title: "ACSBG1을 매개로 한 별아교세포-신경세포 상호작용"
+title: "지질-사이토카인 신호로 신경세포의 α-Synuclein 병리를 일으키는 별아교세포 ACSBG1"
 collection: projects
 permalink: /ko/projects/acsbg1-astrocyte-neuron-crosstalk
 lang: ko
