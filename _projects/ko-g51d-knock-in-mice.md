@@ -9,6 +9,11 @@ status: "PNAS 게재 (2024)"
 summary: "파킨슨병을 일으키는 SNCA 돌연변이를 원래 유전자 자리에 넣은 마우스로, 사람에게서 증상이 나타나는 순서 — 후각과 장이 먼저, 운동은 한참 뒤 — 를 그대로 재현합니다."
 ---
 
+<figure class="project__figure">
+<img src="/images/projects/g51d/g51d-brain-ps129.jpg" alt="12개월 야생형 마우스와 3·12개월 Snca G51D/G51D 마우스 뇌 시상 단면의 pS129-α-Synuclein 염색" loading="lazy">
+<figcaption>인산화된 α-Syn(pS129, 보라색)은 12개월 야생형 뇌(위)에는 없고, 3개월 G51D 마우스(가운데)의 대뇌피질과 해마에서 이미 나타나며, 12개월(아래)에는 더 강해져 흑질까지 퍼집니다. Ctx 대뇌피질, Hpo 해마, SNc 흑질 치밀부, Str 선조체, Cb 소뇌. <a href="https://doi.org/10.1073/pnas.2406479121">Fig. 3A–C, Kim <i>et al.</i>, <i>PNAS</i> 2024</a>, CC BY 4.0.</figcaption>
+</figure>
+
 ## 기존 모델의 한계
 
 파킨슨병은 대개 산발성으로, 나이가 들어 발병합니다. 그래서 마우스로 모델링하기가 어렵습니다. 대부분의 α-Synuclein(α-Syn) 모델은 *Thy1*이나 *prion* 같은 외래 프로모터를 써서 단백질을 과발현시키거나, 미리 만든 섬유(preformed fibril)나 바이러스를 흑질에 직접 주입합니다.
@@ -85,6 +90,16 @@ CRISPR-Cas9으로 마우스의 내인성 *Snca* 유전자 자리를 직접 편�
 </figure>
 
 비운동 증상이 운동 증상보다 3개월 앞서 나타나는데, 이는 환자에게서 20년에 걸쳐 나타나는 전구 증상과 같은 순서입니다.
+
+<figure class="project__figure">
+<img src="/images/projects/g51d/g51d-olfactory-ps129.jpg" alt="3·12개월 야생형과 Snca G51D/G51D 마우스의 후각 경로 pS129-α-Synuclein 염색" loading="lazy">
+<figcaption>후각 경로를 따라 G51D 마우스에서는 3개월에 후각망울에 pS129-α-Syn이 나타나고, 12개월에는 전후각핵(AON), 조롱박피질, 내후각피질까지 퍼집니다. 같은 배 야생형(위)에서는 거의 보이지 않습니다. <a href="https://doi.org/10.1073/pnas.2406479121">Fig. 4A, Kim <i>et al.</i>, <i>PNAS</i> 2024</a>, CC BY 4.0.</figcaption>
+</figure>
+
+<figure class="project__figure">
+<img src="/images/projects/g51d/g51d-gut-dmv-ps129.jpg" alt="야생형과 Snca G51D/G51D 마우스의 대장 장신경과 미주신경 등쪽운동핵 면역형광 염색" loading="lazy">
+<figcaption>왼쪽: G51D 마우스 대장의 장신경(TUJ, 초록)에 3개월과 12개월 모두 pS129-α-Syn(빨강, 화살촉)이 있습니다. 오른쪽: 3개월에 장에서 뇌줄기로 이어지는 경로인 미주신경 등쪽운동핵(점선)에서도 나타납니다. 파란색은 세포핵(DAPI). <a href="https://doi.org/10.1073/pnas.2406479121">Fig. 5A–B, Kim <i>et al.</i>, <i>PNAS</i> 2024</a>, CC BY 4.0.</figcaption>
+</figure>
 
 **세 가지 병적 α-Syn 형태**가 이 마우스에서 만들어집니다. S129가 인산화된 α-Syn, blue native PAGE에서 60 kDa부터 250 kDa 이상까지 관찰되는 가용성 올리고머, 그리고 Triton X-100에 녹지 않는 응집체입니다.
 

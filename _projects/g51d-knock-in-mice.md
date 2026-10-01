@@ -9,6 +9,11 @@ status: "Published in PNAS (2024)"
 summary: "A knock-in mouse carrying a Parkinson's-causing SNCA mutation at its own locus, which reproduces the order in which human symptoms appear: smell and gut first, movement much later."
 ---
 
+<figure class="project__figure">
+<img src="/images/projects/g51d/g51d-brain-ps129.jpg" alt="pS129-alpha-synuclein staining of sagittal brain sections from a 12-month wild-type mouse and Snca G51D/G51D mice at 3 and 12 months, with close-ups of cortex, hippocampus, substantia nigra, striatum and cerebellum" loading="lazy">
+<figcaption>Phosphorylated α-Syn (pS129, purple) is absent from a 12-month wild-type brain (top), already present in cortex and hippocampus of 3-month G51D mice (middle), and by 12 months stronger and reaching the substantia nigra (bottom). Ctx, cortex; Hpo, hippocampus; SNc, substantia nigra pars compacta; Str, striatum; Cb, cerebellum. <a href="https://doi.org/10.1073/pnas.2406479121">Fig. 3A–C, Kim <i>et al.</i>, <i>PNAS</i> 2024</a>, CC BY 4.0.</figcaption>
+</figure>
+
 ## The problem with existing models
 
 Parkinson's disease (PD) is usually sporadic and late-onset, which makes it hard to model in a mouse. Most α-Synuclein (α-Syn) models overexpress the protein under a heterologous promoter such as *Thy1* or *prion*, or introduce it by injecting preformed fibrils or virus into the substantia nigra.
@@ -85,6 +90,16 @@ The phenotypes emerge in a fixed order, and that order is the point.
 </figure>
 
 Non-motor signs precede motor signs by three months, mirroring the two-decade prodrome in patients.
+
+<figure class="project__figure">
+<img src="/images/projects/g51d/g51d-olfactory-ps129.jpg" alt="pS129-alpha-synuclein staining along the olfactory circuit of wild-type and Snca G51D/G51D mice at 3 and 12 months" loading="lazy">
+<figcaption>Along the olfactory circuit, pS129-α-Syn appears in the olfactory bulb of G51D mice at 3 months and by 12 months extends to the anterior olfactory nucleus (AON), piriform and entorhinal cortex. Wild-type littermates (top) show little or none. <a href="https://doi.org/10.1073/pnas.2406479121">Fig. 4A, Kim <i>et al.</i>, <i>PNAS</i> 2024</a>, CC BY 4.0.</figcaption>
+</figure>
+
+<figure class="project__figure">
+<img src="/images/projects/g51d/g51d-gut-dmv-ps129.jpg" alt="Immunofluorescence of colon enteric nerves and the dorsal motor nucleus of the vagus in wild-type and Snca G51D/G51D mice" loading="lazy">
+<figcaption>Left: in the colon, pS129-α-Syn (red, arrowheads) sits in enteric nerves (TUJ, green) of G51D mice at 3 and 12 months. Right: at 3 months it is also in the dorsal motor nucleus of the vagus (dashed outline), the route from gut to brainstem. Nuclei in blue (DAPI). <a href="https://doi.org/10.1073/pnas.2406479121">Fig. 5A–B, Kim <i>et al.</i>, <i>PNAS</i> 2024</a>, CC BY 4.0.</figcaption>
+</figure>
 
 **Three pathological species of α-Syn** form in these mice: S129-phosphorylated α-Syn, soluble oligomers running from 60 kDa to above 250 kDa on blue native PAGE, and Triton X-100–insoluble aggregates.
 
