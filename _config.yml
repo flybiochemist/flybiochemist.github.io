@@ -22,7 +22,7 @@ repository               : "flybiochemist/flybiochemist.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "Youngdoo Kim"
   pronouns         : # example: "she/her"
   bio              : "Scientist interested in Parkinson's disease using mouse model (SncaG51D/G51D) and neuron-glia interaction, through metabolite exchanges"
