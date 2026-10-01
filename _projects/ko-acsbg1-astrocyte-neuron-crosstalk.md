@@ -97,13 +97,28 @@ summary: "별아교세포에만 발현하는 지질 대사 효소가 어떻게 �
 
 **병리는 배지를 통해 전달됩니다.** 반응성 야생형 별아교세포의 조건 배지는 신경세포의 총 α-Syn과 pS129-α-Syn을 모두 증가시켰습니다. 반응성 *Acsbg1* 넉아웃 별아교세포의 배지는 그렇지 않았습니다.
 
+<figure class="project__figure">
+<img src="/images/projects/acsbg1/acsbg1-neuron-cm-ps129.jpg" alt="야생형 또는 Acsbg1 녹아웃 별아교세포의 조건배지(TNF-α·IL-1α 처리 유무)를 처리한 1차 신경세포의 pS129-α-Synuclein 염색" loading="lazy">
+<figcaption>네 종류의 별아교세포 조건배지를 처리한 1차 신경세포(GFP, 초록). 반응성 야생형 별아교세포의 배지(세 번째 열)에서만 신경세포의 pS129-α-Syn(빨강)이 늘어나고, 똑같이 자극한 <i>Acsbg1</i> 녹아웃 별아교세포의 배지(네 번째 열)에서는 늘지 않습니다. 파란색은 세포핵(DAPI). 스케일 바 50 µm. <a href="https://doi.org/10.64898/2026.05.20.726454">Fig. 1D, Kim, Vaidya <i>et al.</i>, <i>bioRxiv</i> 2026 (preprint)</a>, CC BY 4.0.</figcaption>
+</figure>
+
 **매개 물질은 하나가 아니라 둘입니다.** *Acsbg1*이 없으면 별아교세포의 TNF 신호전달 전사 반응이 둔해지고 염증 매개 물질의 분비가 줄었습니다. 그중 **IL-6, RANTES, MIP-3α** 세 가지가 두드러졌는데, 이들 각각을 정상 배지에 하나씩만 넣어 주어도 신경세포의 α-Syn과, 특히 pS129-α-Syn을 올리기에 충분했습니다.
+
+<figure class="project__figure">
+<img src="/images/projects/acsbg1/acsbg1-cytokine-array.jpg" alt="PBS 또는 TNF-α·IL-1α를 처리한 야생형과 Acsbg1 녹아웃 별아교세포 조건배지의 사이토카인 어레이 히트맵" loading="lazy">
+<figcaption>조건배지의 사이토카인 어레이(가장 낮은 신호 대비 배수, 1–101). 반응성 야생형 별아교세포는 몇 가지 매개 물질을 분비하는데, MIP-3α와 RANTES가 가장 밝고 IL-6도 그중 하나입니다. 반응성 <i>Acsbg1</i> 녹아웃 별아교세포는 이들을 거의 분비하지 않습니다. <a href="https://doi.org/10.64898/2026.05.20.726454">Fig. 2C, Kim, Vaidya <i>et al.</i>, <i>bioRxiv</i> 2026 (preprint)</a>, CC BY 4.0.</figcaption>
+</figure>
 
 지질 쪽도 나란히 움직였습니다. 사이토카인 자극은 야생형 배지에서 스핑고신, LBPA, 헥소실세라마이드를 증가시켰고, *Acsbg1*을 없애면 이들이 기준 수준으로 돌아왔습니다. 넉아웃 배지에 합성 스핑고신을 넣어 본 결과 사슬 길이에 따른 선택성이 뚜렷했습니다. **C20:1과 C22:1은 신경세포의 pS129-α-Syn을 다시 올렸지만, C16:1과 C18:1은 아무 영향이 없었습니다.**
 
 **단백질의 존재가 아니라 효소 활성이 중요합니다.** 범-ACS 억제제인 Triacsin C는 넉아웃과 같은 효과를 냈습니다. 넉아웃 별아교세포에 야생형 ACSBG1을 다시 발현시키면 신경세포 병리를 일으키는 능력이 회복되었지만, 촉매 활성이 없는 K701A 변이체는 그렇지 않았습니다.
 
 **생체 내에서도 성립합니다.** Thy1-α-Syn 마우스에서 *Acsbg1*을 없애자 상동 행동과 세우기 행동이 정상화되었고, 평행봉과 폴 테스트 수행이 개선되었으며, 대뇌피질과 중뇌의 총 α-Syn 및 pS129-α-Syn이 감소하고, GFAP 별아교세포 활성화가 해소되었으며, PSD95가 보존되었습니다. 표지자만 움직인 것이 아니라 시냅스가 실제로 보호되었다는 뜻입니다.
+
+<figure class="project__figure">
+<img src="/images/projects/acsbg1/acsbg1-invivo-gfap-ps129.jpg" alt="야생형, Acsbg1 녹아웃, Thy1-α-Synuclein 형질전환, 형질전환·녹아웃 마우스의 대뇌피질과 흑질 GFAP·pS129-α-Synuclein 염색" loading="lazy">
+<figcaption>야생형(WT), <i>Acsbg1</i> 녹아웃(KO), Thy1-α-Syn 형질전환(TG), TG;KO 마우스의 대뇌피질(왼쪽)과 흑질(오른쪽). TG에서 뚜렷한 반응성 별아교세포(GFAP, 초록)와 pS129-α-Syn(빨강)이 <i>Acsbg1</i>을 없애면 크게 줄어듭니다. 스케일 바 50 µm. <a href="https://doi.org/10.64898/2026.05.20.726454">Fig. 6G, 6I, Kim, Vaidya <i>et al.</i>, <i>bioRxiv</i> 2026 (preprint)</a>, CC BY 4.0.</figcaption>
+</figure>
 
 ## ACSBG1이 좋은 표적인 이유
 

@@ -97,13 +97,28 @@ The core experiment is a conditioned-medium transfer. Primary astrocytes from wi
 
 **The medium carries the pathology.** Conditioned medium from reactive wild-type astrocytes raised both total and pS129-α-Syn in neurons. Medium from reactive *Acsbg1* knockout astrocytes did not.
 
+<figure class="project__figure">
+<img src="/images/projects/acsbg1/acsbg1-neuron-cm-ps129.jpg" alt="Primary neurons stained for pS129-alpha-synuclein after treatment with conditioned medium from wild-type or Acsbg1 knockout astrocytes, with or without TNF-alpha and IL-1alpha" loading="lazy">
+<figcaption>Primary neurons (GFP, green) given conditioned medium from four kinds of astrocytes. Only medium from reactive wild-type astrocytes (third column) raises neuronal pS129-α-Syn (red); medium from equally stimulated <i>Acsbg1</i> knockout astrocytes (fourth column) does not. Nuclei in blue (DAPI). Scale bar, 50 µm. <a href="https://doi.org/10.64898/2026.05.20.726454">Fig. 1D, Kim, Vaidya <i>et al.</i>, <i>bioRxiv</i> 2026 (preprint)</a>, CC BY 4.0.</figcaption>
+</figure>
+
 **Two mediators, not one.** Losing *Acsbg1* blunted the astrocytes' TNF-signaling transcriptional response and cut the release of inflammatory mediators. Three stood out — **IL-6, RANTES, and MIP-3α** — and adding any one of them back to normal medium was sufficient on its own to raise neuronal α-Syn and, more strikingly, pS129-α-Syn.
+
+<figure class="project__figure">
+<img src="/images/projects/acsbg1/acsbg1-cytokine-array.jpg" alt="Heatmap of cytokine array signals in conditioned medium from wild-type and Acsbg1 knockout astrocytes treated with PBS or TNF-alpha and IL-1alpha" loading="lazy">
+<figcaption>Cytokine array of the conditioned medium (fold over the lowest signal, 1–101). Reactive wild-type astrocytes release a handful of mediators, brightest MIP-3α and RANTES, with IL-6 among the rest; reactive <i>Acsbg1</i> knockout astrocytes release almost none of them. <a href="https://doi.org/10.64898/2026.05.20.726454">Fig. 2C, Kim, Vaidya <i>et al.</i>, <i>bioRxiv</i> 2026 (preprint)</a>, CC BY 4.0.</figcaption>
+</figure>
 
 The lipid arm ran in parallel. Cytokine activation raised sphingosine, LBPA, and hexosylceramide in wild-type medium; *Acsbg1* deletion returned them to baseline. Supplementing knockout medium with synthetic sphingosines showed sharp chain-length selectivity: **C20:1 and C22:1 restored neuronal pS129-α-Syn, while C16:1 and C18:1 did nothing.**
 
 **It depends on catalysis, not presence.** The pan-ACS inhibitor Triacsin C reproduced the knockout effect. Re-expressing wild-type ACSBG1 in knockout astrocytes restored their ability to drive neuronal pathology; the catalytically dead K701A mutant did not.
 
 **It holds in vivo.** In Thy1-α-Syn mice, deleting *Acsbg1* normalized stereotypic and rearing behavior, improved parallel rod and pole test performance, reduced total and pS129-α-Syn in cortex and midbrain, resolved GFAP astrogliosis, and preserved PSD95 — meaning synapses were protected, not just markers moved.
+
+<figure class="project__figure">
+<img src="/images/projects/acsbg1/acsbg1-invivo-gfap-ps129.jpg" alt="GFAP and pS129-alpha-synuclein immunostaining of cortex and substantia nigra from wild-type, Acsbg1 knockout, Thy1-alpha-synuclein transgenic and transgenic knockout mice" loading="lazy">
+<figcaption>Cortex (left) and substantia nigra (right) of wild-type (WT), <i>Acsbg1</i> knockout (KO), Thy1-α-Syn transgenic (TG) and TG;KO mice. Reactive astrocytes (GFAP, green) and pS129-α-Syn (red) are prominent in TG and markedly reduced when <i>Acsbg1</i> is deleted. Scale bar, 50 µm. <a href="https://doi.org/10.64898/2026.05.20.726454">Fig. 6G, 6I, Kim, Vaidya <i>et al.</i>, <i>bioRxiv</i> 2026 (preprint)</a>, CC BY 4.0.</figcaption>
+</figure>
 
 ## Why ACSBG1 is a promising target
 
