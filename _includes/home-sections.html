@@ -1,0 +1,68 @@
+{% comment %}
+Home page sections: current project cards, news, and recent blog posts.
+Usage: include home-sections.html with lang="en" or lang="ko"
+{% endcomment %}
+{% include base_path %}
+{% assign home_lang = include.lang | default: 'en' %}
+{% if home_lang == 'ko' %}
+{% assign home_projects = site.projects | where: 'lang', 'ko' | sort: 'order' %}
+{% assign home_posts = site.posts | where_exp: "p", "p.lang != 'en'" %}
+{% assign label_projects = "현재 진행 중인 연구" %}
+{% assign label_news = "소식" %}
+{% assign label_posts = "최근 블로그 글" %}
+{% assign label_more_projects = "연구 전체 보기" %}
+{% assign label_more_pubs = "논문 전체 보기" %}
+{% assign label_more_posts = "블로그 전체 보기" %}
+{% assign url_projects = "/ko/projects/" %}
+{% assign url_pubs = "/ko/publications/" %}
+{% assign url_posts = "/ko/blog/" %}
+{% else %}
+{% assign home_projects = site.projects | where: 'lang', 'en' | sort: 'order' %}
+{% assign home_posts = site.posts | where: 'lang', 'en' %}
+{% assign label_projects = "Current projects" %}
+{% assign label_news = "News" %}
+{% assign label_posts = "Recent posts" %}
+{% assign label_more_projects = "All projects" %}
+{% assign label_more_pubs = "All publications" %}
+{% assign label_more_posts = "All posts" %}
+{% assign url_projects = "/projects/" %}
+{% assign url_pubs = "/publications/" %}
+{% assign url_posts = "/year-archive/" %}
+{% endif %}
+
+<h2>{{ label_projects }}</h2>
+<div class="home-cards">
+{% for project in home_projects %}
+<a class="home-card" href="{{ base_path }}{{ project.url }}">
+{% if project.status %}<span class="home-card__status">{{ project.status }}</span>{% endif %}
+<span class="home-card__title">{{ project.title }}</span>
+{% if project.summary %}<span class="home-card__summary">{{ project.summary }}</span>{% endif %}
+</a>
+{% endfor %}
+</div>
+<p class="home-more"><a href="{{ base_path }}{{ url_projects }}">{{ label_more_projects }} &rarr;</a></p>
+
+<h2>{{ label_news }}</h2>
+<ul class="home-news">
+{% for item in site.data.news limit: 6 %}
+{% if home_lang == 'ko' %}{% assign news_text = item.ko | default: item.en %}{% else %}{% assign news_text = item.en %}{% endif %}
+{% assign news_html = news_text | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+<li class="home-news__item">
+<span class="home-news__date">{{ item.date }}</span>
+<span class="home-news__text">{% if item.url %}<a href="{{ base_path }}{{ item.url }}">{{ news_html }}</a>{% else %}{{ news_html }}{% endif %}</span>
+</li>
+{% endfor %}
+</ul>
+<p class="home-more"><a href="{{ base_path }}{{ url_pubs }}">{{ label_more_pubs }} &rarr;</a></p>
+
+<h2>{{ label_posts }}</h2>
+<ul class="home-news">
+{% for post in home_posts limit: 3 %}
+{% assign post_title = post.title | markdownify | remove: "<p>" | remove: "</p>" | strip %}
+<li class="home-news__item">
+<span class="home-news__date">{{ post.date | date: "%Y.%m.%d" }}</span>
+<span class="home-news__text"><a href="{{ base_path }}{{ post.url }}">{{ post_title }}</a></span>
+</li>
+{% endfor %}
+</ul>
+<p class="home-more"><a href="{{ base_path }}{{ url_posts }}">{{ label_more_posts }} &rarr;</a></p>
