@@ -50,9 +50,9 @@ Vaidya B, Li Y, Kim Y, Osterman C, Revelli JP, Zoghbi HY. GLP-1 analogs restore 
 
 Lin Y, Jaimon E, Kim Y, Loftman A, Vijayakumaran A, Belfort B, Chiang C, Arenkiel B, Zoghbi HY, Pfeffer S. Selective loss of primary cilia and neurotrophic signaling in G51D α-synuclein mice highlights a common pathway to Parkinson's disease. *Proc. Natl. Acad. Sci. U.S.A.* 2026, 123(33) e2619797123.
 
-Kim Y, Vaidya B, McInnes J, Zoghbi HY. Alpha-Synuclein Phosphomimetic Y39E and S129D Knock-In Mice Show Cytosolic Alpha-Synuclein Localization without Developing Neurodegeneration or Motor Deficits. *eNeuro* 31 March 2025, 12(4).
+Kim Y, Vaidya B, McInnes J, Zoghbi HY. Alpha-Synuclein Phosphomimetic Y39E and S129D Knock-In Mice Show Cytosolic Alpha-Synuclein Localization without Developing Neurodegeneration or Motor Deficits. *eNeuro* 11 April 2025, 12(4).
 
-Spargo T, Sands CF, Juan IR, Mitchell J, Ravanmehr V, Butts JC, De-Paula RB, Kim Y, Hu F, Wang Q, Vitsios D, Garg M, Messa M, Angel GD, Calame DG, Saade H, Robak L, Hollis B, Zoghbi HY, Shulman J, Petrovski S, Al-Ramahi I, Tachmazidou I, Dhindsa RS. Haploinsufficiency of ITSN1 is associated with Parkinson's disease. *Cell Reports* 2025 March; 07, 115355.
+Spargo T, Sands CF, Juan IR, Mitchell J, Ravanmehr V, Butts JC, De-Paula RB, Kim Y, Hu F, Wang Q, Vitsios D, Garg M, Messa M, Angel GD, Calame DG, Saade H, Robak L, Hollis B, Zoghbi HY, Shulman J, Petrovski S, Al-Ramahi I, Tachmazidou I, Dhindsa RS. Haploinsufficiency of ITSN1 is associated with Parkinson's disease. *Cell Reports* 2025 Mar 7; 115355.
 
 Kim Y, McInnes J, Kim J, Liang YW, Veeraragavan S, Garza AR, Belfort DW, Arenkiel B, Samaco R, Zoghbi HY. Olfactory deficit and gastrointestinal dysfunction precede motor abnormalities in alpha-synuclein G51D knock-in mice. *Proc. Natl. Acad. Sci. U.S.A.* 2024, 121(39) e2406479121.
 
