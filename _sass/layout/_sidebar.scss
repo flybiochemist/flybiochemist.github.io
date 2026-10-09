@@ -196,6 +196,18 @@
   display: none;
   @media screen and (min-width: 1024px) {
     display: block;
+    /* location and affiliation can be long: let them wrap, with the
+       following lines indented to line up after the icon */
+    white-space: normal;
+    padding-left: 1.75em;
+    text-indent: -1.75em;
+    line-height: 1.4;
+    margin-bottom: 5px;
+
+    /* the icon is an inline block, so it must not inherit the indent */
+    i {
+      text-indent: 0;
+    }
   }
 }
 
