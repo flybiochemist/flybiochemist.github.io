@@ -27,7 +27,9 @@ author_profile: true
 
 ## 연구 경력
 
-**박사후연구원(Postdoctoral Associate)** — 분자·인간유전학과, 베일러 의과대학, 휴스턴, 텍사스 (2019년 4월 – 현재)
+**책임연구원(Senior Researcher)** — 자연과학대학 기초과학연구원, 서울대학교, 서울 (2026년 11월 – 현재)
+
+**박사후연구원(Postdoctoral Associate)** — 분자·인간유전학과, 베일러 의과대학, 휴스턴, 텍사스 (2019년 4월 – 2026년 10월)
 - Zoghbi 랩 / 지도교수: Huda Y. Zoghbi, M.D.
 
 **선임연구원(Senior Fellow, Research)** — 생화학과, 워싱턴대학교, 시애틀, 워싱턴 (2016년 5월 – 2019년 4월)

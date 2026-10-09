@@ -25,12 +25,16 @@ author:
   avatar           : "profile.jpg"
   name             : "Youngdoo Kim"
   pronouns         : # example: "she/her"
-  bio              : "Scientist interested in Parkinson's disease using mouse model (SncaG51D/G51D) and neuron-glia interaction, through metabolite exchanges"
-  bio_ko           : "SncaG51D/G51D 넉인 마우스 모델과 대사물질 교환을 매개로 한 신경세포-교세포 상호작용을 통해 파킨슨병을 연구합니다"
-  location         : "Houston, TX"
-  employer         : "Baylor College of Medicine"
+  bio              : "Scientist interested in Parkinson's disease using mouse model (SncaG51D/G51D) and neuron-glia interaction through metabolite exchanges, now expanding into the activation of protein degradation"
+  bio_ko           : "SncaG51D/G51D 넉인 마우스 모델과 대사물질 교환을 매개로 한 신경세포-교세포 상호작용을 통해 파킨슨병을 연구하며, 단백질 분해 활성화로 연구 분야를 넓혀가고 있습니다"
+  title            : "Senior Researcher"
+  title_ko         : "책임연구원"
+  location         : "Seoul, Korea"
+  location_ko      : "서울"
+  employer         : "Research Institute of Basic Sciences, College of Natural Sciences, Seoul National University"
+  employer_ko      : "서울대학교 자연과학대학 기초과학연구원"
   uri              : # URL
-  email            : "youngdoo.kim@bcm.edu"
+  email            : "doolang9@snu.ac.kr"
 
   # Academic websites
   academia         : # URL

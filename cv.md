@@ -27,9 +27,11 @@ A highly motivated neuroscientist with expertise in molecular biology, including
 
 ---
 
-## Postdoctoral Research
+## Research Experience
 
-**Postdoctoral Associate** — Dept. Molecular & Human Genetics, Baylor College of Medicine, Houston, TX (Apr 2019 – present)
+**Senior Researcher** — Research Institute of Basic Sciences, College of Natural Sciences, Seoul National University, Seoul, Korea (Nov 2026 – present)
+
+**Postdoctoral Associate** — Dept. Molecular & Human Genetics, Baylor College of Medicine, Houston, TX (Apr 2019 – Oct 2026)
 - Zoghbi Lab; PI: Huda Y. Zoghbi, M.D.
 
 **Senior Fellow (Research)** — Dept. Biochemistry, University of Washington, Seattle, WA (May 2016 – Apr 2019)
