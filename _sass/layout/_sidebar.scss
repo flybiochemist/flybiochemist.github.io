@@ -322,3 +322,35 @@
     }
   }
 }
+
+/*
+   Pages without the profile sidebar
+   ========================================================================== */
+
+/* _includes/sidebar.html only renders the profile on the home pages. On every
+   other page the content is the first child of #main, so drop the column that
+   was reserved for the sidebar and center the content instead. */
+
+#main > .page:first-child,
+#main > .archive:first-child {
+  @include breakpoint($large) {
+    float: none;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+#main > .page:first-child {
+  @include breakpoint($large) {
+    max-width: 820px;
+  }
+}
+
+#main > .archive:first-child {
+  @include breakpoint($large) {
+    max-width: 920px;
+  }
+}
