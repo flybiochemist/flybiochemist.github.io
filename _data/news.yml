@@ -3,11 +3,13 @@
 # date: shown as written, so use "2026.08" when the month is known and just
 #       "2025" when it is not.
 # type: shown as a small label before the text. One of
-#       first-author, co-first-author, co-author, talk, poster, seminar
+#       first-author, co-first-author, co-author, talk, poster, seminar,
+#       interview, media
 #       (labels for each are in _includes/home-sections.html).
 # en / ko: one-line text for the English and Korean home pages. Markdown is
 #          allowed (e.g. *italics*).
-# url: optional link, used on both pages.
+# url: optional link, used on both pages. A site path (/publication/...) or a
+#      full address (https://...) for pages on other sites.
 
 - date: "2026.08"
   type: co-author
@@ -45,6 +47,12 @@
   ko: "Baylor 의과대학 Duncan NRI 세미나: 별아교세포의 Acsbg1을 없애면 신경세포와 생체 내에서 α-Synuclein 병리가 줄어듭니다."
   url: /talks/2025-10-10-talk-3
 
+- date: "2025.07"
+  type: interview
+  en: "Interviewed for the *eNeuro* blog series Beyond the Paper, on the phosphomimetic Y39E and S129D knock-in mice."
+  ko: "*eNeuro* 블로그 Beyond the Paper 시리즈에 Y39E·S129D 인산화 모방 넉인 마우스 논문에 관한 인터뷰가 실렸습니다."
+  url: https://blog.eneuro.org/2025/07/btp_kim
+
 - date: "2025.04"
   type: first-author
   en: "Paper out in *eNeuro*: α-Synuclein phosphomimetic Y39E and S129D knock-in mice show cytosolic α-Synuclein without neurodegeneration or motor deficits."
@@ -62,6 +70,12 @@
   en: "Paper out in *Nature Neuroscience*: TYK2 is a critical regulator of tau levels, phosphorylation and aggregation in tauopathy."
   ko: "*Nature Neuroscience* 논문 게재: TYK2가 타우병증에서 타우의 양, 인산화, 응집을 조절함을 보고했습니다."
   url: /publication/2024-tyk2-tau
+
+- date: "2024.09"
+  type: media
+  en: "The G51D mouse model was featured in *Parkinson's News Today*: \"New mouse model captures disease progression, from gut to brain.\""
+  ko: "G51D 마우스 모델이 *Parkinson's News Today*에 소개되었습니다: \"New mouse model captures disease progression, from gut to brain.\""
+  url: https://parkinsonsnewstoday.com/news/mouse-model-captures-parkinsons-progression-gut-brain/
 
 - date: "2024.09"
   type: first-author
