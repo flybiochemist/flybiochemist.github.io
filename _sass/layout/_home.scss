@@ -145,3 +145,74 @@ a.home-card {
   background-color: var(--global-base-color);
   color: var(--global-bg-color);
 }
+
+/* Featured item at the very top of the home page (_includes/home-feature.html),
+   e.g. the poster currently being presented. */
+
+.home-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9em;
+  margin: 0 0 2em;
+  padding: 0.9em;
+  border: 1px solid var(--global-border-color);
+  border-left: 4px solid var(--global-base-color);
+  border-radius: 0 $border-radius $border-radius 0;
+  background-color: var(--global-footer-bg-color);
+
+  @include breakpoint($medium) {
+    flex-direction: row;
+    align-items: center;
+    gap: 1.25em;
+  }
+}
+
+.page__content a.home-feature__image,
+a.home-feature__image {
+  flex: none;
+  display: block;
+  line-height: 0;
+
+  img {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--global-border-color);
+    border-radius: $border-radius;
+    background-color: #fff;
+  }
+
+  @include breakpoint($medium) {
+    width: 14em;
+  }
+}
+
+.home-feature__body {
+  font-family: $sans-serif;
+}
+
+.home-feature__kicker {
+  margin: 0 0 0.25em;
+  font-size: $type-size-7;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--global-base-color);
+}
+
+.home-feature__title {
+  margin: 0 0 0.35em;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.home-feature__detail {
+  margin: 0 0 0.6em;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
+.page__content a.home-feature__cta,
+a.home-feature__cta {
+  font-size: $type-size-6;
+  font-weight: bold;
+}

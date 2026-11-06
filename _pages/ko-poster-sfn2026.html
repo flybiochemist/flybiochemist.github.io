@@ -1,0 +1,71 @@
+---
+layout: archive
+title: "SfN 2026 포스터"
+permalink: /ko/posters/sfn2026/
+lang: ko
+translation: /posters/sfn2026/
+body_class: wide-page
+author_profile: true
+header:
+  image: posters/sfn2026-acsbg1-thumb.jpg
+---
+
+{% include base_path %}
+
+<p class="poster-meta"><strong>Society for Neuroscience 2026</strong> · Neuroprotective Mechanisms: Preclinical<br>
+포스터 <strong>PSTR173.20</strong>, Board <strong>U9</strong> · 2026년 11월 16일(월) 오후 1:00–5:00</p>
+
+<p class="poster-title">Astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology in a Parkinson's disease mouse model</p>
+
+<p class="poster-authors">YoungDoo Kim*, Bhupesh Vaidya*, Jiyoen Kim, Sara Bitar, Femil Joseph Shajan, Ajay Kumar Verma, Hari Krishna Yalamanchili, Shubham Singh, Huda Y. Zoghbi. *공동 제1저자.</p>
+
+<ul class="poster-actions">
+  <li><a class="poster-action poster-action--primary" href="{{ base_path }}/files/posters/sfn2026-acsbg1-poster.pdf">PDF 내려받기<small>4.2 MB</small></a></li>
+  <li><a class="poster-action" href="{{ base_path }}/files/posters/sfn2026-acsbg1-poster.svg">원본 해상도 이미지<small>SVG, 5.5 MB</small></a></li>
+  <li><a class="poster-action" href="{{ base_path }}/publication/2026-acsbg1-parkinson">프리프린트 읽기</a></li>
+  <li><a class="poster-action" href="{{ base_path }}/ko/projects/acsbg1-astrocyte-neuron-crosstalk">연구 소개</a></li>
+</ul>
+
+<div class="poster-viewer" id="poster-viewer">
+  <button type="button" class="poster-viewer__toggle" aria-pressed="false" aria-label="포스터 확대 또는 축소">
+    <img src="{{ base_path }}/images/posters/sfn2026-acsbg1-preview.jpg" data-full="{{ base_path }}/files/posters/sfn2026-acsbg1-poster.svg" width="2736" height="1728" alt="Astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology in a Parkinson's disease mouse model 포스터. 배경, 가설, 접근 방법, Figure 1–7, 모식도, 결론, 진행 중인 연구, 참고 문헌이 단으로 나뉘어 있습니다.">
+  </button>
+</div>
+<p class="poster-hint">포스터를 누르면 확대되고, 다시 누르면 원래 크기로 돌아갑니다. 인쇄하거나 내려받아 보려면 PDF를 이용해 주세요. 포스터는 영어로 작성되었습니다.</p>
+
+<h2>주요 결과</h2>
+
+<ol class="poster-findings">
+  <li>ACSBG1은 신경세포 밖에서 작용하여 신경세포의 α-synuclein에 영향을 줍니다.</li>
+  <li>IL-6 / RANTES / MIP-3α와 스핑고신 d20:1, 두 갈래의 매개 물질이 각각 단독으로도 충분합니다.</li>
+  <li>이 효과에는 ACSBG1의 효소 활성이 필요합니다.</li>
+  <li>Thy1-α-Syn 마우스에서 <i>Acsbg1</i>을 결손시키면 별아교세포 증식과 α-Syn이 줄고, PSD95가 보존되며, 운동 행동이 회복됩니다.</li>
+  <li>ACSBG1은 뇌, 부신, 난소, 고환에만 발현이 제한되어 있어 파킨슨병의 유망한 표적입니다.</li>
+</ol>
+
+<p>연구 전체는 <a href="{{ base_path }}/ko/projects/acsbg1-astrocyte-neuron-crosstalk">연구 소개 페이지</a>와 <a href="{{ base_path }}/publication/2026-acsbg1-parkinson">bioRxiv 프리프린트</a>에서 확인할 수 있습니다.</p>
+
+<h2>연락처</h2>
+
+<p>포스터에 대한 질문은 발표 현장에서 받거나, 이메일(<a href="mailto:doolang9@snu.ac.kr">doolang9@snu.ac.kr</a>)로 보내 주세요.</p>
+
+<script>
+(function () {
+  var box = document.getElementById("poster-viewer");
+  if (!box) return;
+  var btn = box.querySelector(".poster-viewer__toggle");
+  var img = btn.querySelector("img");
+  var loaded = false;
+  btn.addEventListener("click", function () {
+    var zoomed = box.classList.toggle("is-zoomed");
+    btn.setAttribute("aria-pressed", zoomed ? "true" : "false");
+    if (zoomed && !loaded) {
+      loaded = true;
+      var big = new Image();
+      big.onload = function () { img.src = big.src; };
+      big.src = img.getAttribute("data-full");
+    }
+    if (!zoomed) { box.scrollTop = 0; box.scrollLeft = 0; }
+  });
+})();
+</script>

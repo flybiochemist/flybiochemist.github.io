@@ -1,0 +1,129 @@
+/* ==========================================================================
+   CONFERENCE POSTER PAGES (_pages/poster-*.html)
+   ========================================================================== */
+
+/* A poster is far wider than the 920px reading column, so these pages
+   (front matter: body_class: wide-page) get a wider column. */
+
+.wide-page #main > .archive:first-child {
+  @include breakpoint($large) {
+    max-width: 1400px;
+  }
+}
+
+.poster-meta {
+  margin-top: 0;
+  font-family: $sans-serif;
+  line-height: 1.6;
+}
+
+.poster-title {
+  margin: 1em 0 0.25em;
+  font-size: 1.25em;
+  font-weight: bold;
+  line-height: 1.35;
+}
+
+.poster-authors {
+  margin-top: 0;
+  font-size: $type-size-6;
+  color: var(--global-text-color-light);
+}
+
+.poster-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin: 1.25em 0;
+  padding: 0;
+  list-style: none;
+
+  li {
+    margin: 0;
+  }
+}
+
+.archive a.poster-action {
+  display: inline-block;
+  padding: 0.5em 1em;
+  border: 1px solid var(--global-base-color);
+  border-radius: $border-radius;
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  text-decoration: none;
+  color: var(--global-base-color);
+  transition: $global-transition;
+
+  &:hover,
+  &:focus {
+    background-color: var(--global-base-color);
+    color: var(--global-bg-color);
+    text-decoration: none;
+  }
+
+  &--primary {
+    background-color: var(--global-base-color);
+    color: var(--global-bg-color);
+
+    &:hover,
+    &:focus {
+      background-color: var(--global-link-color);
+      border-color: var(--global-link-color);
+    }
+  }
+
+  small {
+    margin-left: 0.4em;
+    opacity: 0.8;
+  }
+}
+
+/* Viewer: the fitted poster; click or tap switches to a large, scrollable
+   view that loads the full-resolution SVG. */
+
+.poster-viewer {
+  margin: 1.5em 0 0.5em;
+  border: 1px solid var(--global-border-color);
+  border-radius: $border-radius;
+  background-color: #fff;
+  overflow: auto;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &.is-zoomed {
+    max-height: 85vh;
+  }
+}
+
+.poster-viewer__toggle {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+
+  .is-zoomed & {
+    width: 4000px;
+    max-width: none;
+    cursor: zoom-out;
+  }
+}
+
+.poster-hint {
+  margin: 0 0 2em;
+  font-family: $sans-serif;
+  font-size: $type-size-7;
+  color: var(--global-fig-caption-color);
+}
+
+.poster-findings {
+  li {
+    margin-bottom: 0.4em;
+  }
+}

@@ -11,6 +11,12 @@
 # url: optional link, used on both pages. A site path (/publication/...) or a
 #      full address (https://...) for pages on other sites.
 
+- date: "2026.11"
+  type: poster
+  en: "Poster at the Society for Neuroscience 2026 (PSTR173.20, Board U9, Nov 16): astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology."
+  ko: "Society for Neuroscience 2026 포스터 발표 (PSTR173.20, Board U9, 11월 16일): 별아교세포의 ACSBG1을 없애면 지질-사이토카인 신호가 개선되고 α-synuclein 병리가 줄어듭니다."
+  url: /posters/sfn2026/
+
 - date: "2026.08"
   type: co-author
   en: "Paper out in *PNAS*: selective loss of primary cilia and neurotrophic signaling in G51D α-synuclein mice."

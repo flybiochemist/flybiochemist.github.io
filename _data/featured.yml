@@ -1,0 +1,20 @@
+# Featured items shown in a box at the very top of the home page.
+# Remove an entry, or set active: false, to take it down.
+#
+# image: a file under /images/. url: the page the box links to.
+
+- active: true
+  url: /posters/sfn2026/
+  image: posters/sfn2026-acsbg1-thumb.jpg
+  en:
+    kicker: "Poster · Society for Neuroscience 2026"
+    title: "Astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology in a Parkinson's disease mouse model"
+    detail: "PSTR173.20 · Board U9 · Mon 16 Nov 2026, 1:00–5:00 PM"
+    cta: "View the poster"
+    alt: "Thumbnail of the SfN 2026 poster"
+  ko:
+    kicker: "포스터 · Society for Neuroscience 2026"
+    title: "Astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology in a Parkinson's disease mouse model"
+    detail: "PSTR173.20 · Board U9 · 2026년 11월 16일(월) 오후 1:00–5:00"
+    cta: "포스터 보기"
+    alt: "SfN 2026 포스터 미리보기"

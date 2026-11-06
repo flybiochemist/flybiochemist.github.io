@@ -1,0 +1,71 @@
+---
+layout: archive
+title: "Poster at SfN 2026"
+permalink: /posters/sfn2026/
+lang: en
+translation: /ko/posters/sfn2026/
+body_class: wide-page
+author_profile: true
+header:
+  image: posters/sfn2026-acsbg1-thumb.jpg
+---
+
+{% include base_path %}
+
+<p class="poster-meta"><strong>Society for Neuroscience 2026</strong> · Neuroprotective Mechanisms: Preclinical<br>
+Poster <strong>PSTR173.20</strong>, Board <strong>U9</strong> · Monday 16 November 2026, 1:00–5:00 PM</p>
+
+<p class="poster-title">Astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology in a Parkinson's disease mouse model</p>
+
+<p class="poster-authors">YoungDoo Kim*, Bhupesh Vaidya*, Jiyoen Kim, Sara Bitar, Femil Joseph Shajan, Ajay Kumar Verma, Hari Krishna Yalamanchili, Shubham Singh, Huda Y. Zoghbi. *Equal contribution.</p>
+
+<ul class="poster-actions">
+  <li><a class="poster-action poster-action--primary" href="{{ base_path }}/files/posters/sfn2026-acsbg1-poster.pdf">Download PDF<small>4.2 MB</small></a></li>
+  <li><a class="poster-action" href="{{ base_path }}/files/posters/sfn2026-acsbg1-poster.svg">Full-resolution image<small>SVG, 5.5 MB</small></a></li>
+  <li><a class="poster-action" href="{{ base_path }}/publication/2026-acsbg1-parkinson">Read the preprint</a></li>
+  <li><a class="poster-action" href="{{ base_path }}/projects/acsbg1-astrocyte-neuron-crosstalk">About the project</a></li>
+</ul>
+
+<div class="poster-viewer" id="poster-viewer">
+  <button type="button" class="poster-viewer__toggle" aria-pressed="false" aria-label="Zoom the poster in or out">
+    <img src="{{ base_path }}/images/posters/sfn2026-acsbg1-preview.jpg" data-full="{{ base_path }}/files/posters/sfn2026-acsbg1-poster.svg" width="2736" height="1728" alt="Scientific poster titled Astrocytic ACSBG1 depletion improves lipid–cytokine signaling and attenuates α-synuclein pathology in a Parkinson's disease mouse model. Columns of text and figures cover the background, hypothesis, approach, Figures 1 to 7, a schematic model, conclusions, ongoing work, and references.">
+  </button>
+</div>
+<p class="poster-hint">Click or tap the poster to zoom in; click again to return. For a copy to print or read offline, use the PDF.</p>
+
+<h2>Key findings</h2>
+
+<ol class="poster-findings">
+  <li>ACSBG1 acts non-cell-autonomously on neuronal α-synuclein.</li>
+  <li>Two parallel mediators, IL-6 / RANTES / MIP-3α and sphingosine d20:1, are each sufficient on their own.</li>
+  <li>The effect requires ACSBG1 enzymatic activity.</li>
+  <li>Acsbg1 deletion in Thy1-α-Syn mice reduces astrogliosis and α-Syn, preserves PSD95, and rescues motor behavior.</li>
+  <li>ACSBG1 expression is restricted to brain, adrenal gland, ovary, and testis, which makes it an attractive target in Parkinson's disease.</li>
+</ol>
+
+<p>The full study is described on the <a href="{{ base_path }}/projects/acsbg1-astrocyte-neuron-crosstalk">project page</a> and in the <a href="{{ base_path }}/publication/2026-acsbg1-parkinson">bioRxiv preprint</a>.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about the poster are welcome at the session, or by email: <a href="mailto:doolang9@snu.ac.kr">doolang9@snu.ac.kr</a>.</p>
+
+<script>
+(function () {
+  var box = document.getElementById("poster-viewer");
+  if (!box) return;
+  var btn = box.querySelector(".poster-viewer__toggle");
+  var img = btn.querySelector("img");
+  var loaded = false;
+  btn.addEventListener("click", function () {
+    var zoomed = box.classList.toggle("is-zoomed");
+    btn.setAttribute("aria-pressed", zoomed ? "true" : "false");
+    if (zoomed && !loaded) {
+      loaded = true;
+      var big = new Image();
+      big.onload = function () { img.src = big.src; };
+      big.src = img.getAttribute("data-full");
+    }
+    if (!zoomed) { box.scrollTop = 0; box.scrollLeft = 0; }
+  });
+})();
+</script>

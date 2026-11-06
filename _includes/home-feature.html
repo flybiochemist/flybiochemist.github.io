@@ -1,0 +1,20 @@
+{% comment %}
+Featured box at the top of the home page, filled from _data/featured.yml.
+Usage: include home-feature.html with lang="en" or lang="ko"
+{% endcomment %}
+{% include base_path %}
+{% assign feature_lang = include.lang | default: 'en' %}
+{% for item in site.data.featured %}
+{% if item.active %}
+{% if feature_lang == 'ko' %}{% assign f = item.ko %}{% else %}{% assign f = item.en %}{% endif %}
+<div class="home-feature">
+<a class="home-feature__image" href="{{ base_path }}{% if feature_lang == 'ko' %}/ko{% endif %}{{ item.url }}"><img src="{{ base_path }}/images/{{ item.image }}" alt="{{ f.alt }}" width="1200" height="758" loading="eager"></a>
+<div class="home-feature__body">
+<p class="home-feature__kicker">{{ f.kicker }}</p>
+<p class="home-feature__title">{{ f.title }}</p>
+<p class="home-feature__detail">{{ f.detail }}</p>
+<a class="home-feature__cta" href="{{ base_path }}{% if feature_lang == 'ko' %}/ko{% endif %}{{ item.url }}">{{ f.cta }} &rarr;</a>
+</div>
+</div>
+{% endif %}
+{% endfor %}
